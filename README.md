@@ -1,1 +1,1 @@
-# blue-markets-wiki
+# Blue markets wiki
