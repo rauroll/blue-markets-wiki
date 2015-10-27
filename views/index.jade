@@ -1,5 +1,5 @@
 doctype html
-html
+html(ng-app='bmwApp')
 	head
 		script(src='libs/jquery/dist/jquery.js')
 		link(rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css")
@@ -8,12 +8,12 @@ html
 		script(src='libs/angular/angular.js')
 		script(src='libs/angular-route/angular-route.js')
 
+		script(src='appRoutes.js')
 		script(src='js/controllers/MainCtrl.js')
 		script(src='js/controllers/ErrorCtrl.js')
-
-
-		script(src='appRoutes.js')
 		script(src='app.js')
+
+		
 
 
 
@@ -22,5 +22,6 @@ html
 		meta(name='viewport' content='width=device-width, initial-scale=1.0' charset='utf-8')
 		title Bluemarkets
 
-	body(ng-app='bmwApp', ng-controller='MainController')
-		div(ng-view)
+	body
+		div.container
+			div(ng-view)

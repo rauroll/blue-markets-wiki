@@ -1,24 +1,23 @@
-angular.module('appRoutes', [])
-	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 		$routeProvider
 
 		.when('/', {
-			templateUrl: 'templates/home',
+			
+			templateUrl: 'templates/home.html',
 			controller: 'MainController'
 		})
 
 		.when('/error', {
-			templateUrl: 'templates/error',
+			templateUrl: 'templates/error.html',
 			controller: 'ErrorController'
 		})
 
 		.otherwise(
-			console.log("Redirecting..."),
 			{
 			redirectoTo: '/'
 		});
 
-		$locationProvider.html5Mode(true);
+	$locationProvider.html5Mode(true);	
 
-}])
+}]);

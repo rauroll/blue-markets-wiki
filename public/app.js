@@ -1,1 +1,1 @@
-angular.module('bmwApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'ErrorCtrl'])
+var bmwApp = angular.module('bmwApp', ['ngRoute', 'MainCtrl', 'ErrorCtrl', 'appRoutes']);
