@@ -1,3 +1,5 @@
+
+
 angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 		$routeProvider
@@ -5,13 +7,31 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		.when('/', {
 			
 			templateUrl: 'templates/home.html',
-			controller: 'MainController'
+			controller: 'MainController',
+			access: {restricted: false}
 		})
 
 		.when('/error', {
 			templateUrl: 'templates/error.html',
-			controller: 'ErrorController'
+			controller: 'ErrorController',
+			access: {restricted: false}
 		})
+		.when('/account', {
+			templateUrl: 'templates/account.html',
+			access: {restricted: true}
+		})
+		.when('/register', {
+			templateUrl: 'templates/auth/register.html',
+			controller: 'RegisterController',
+			access: {restricted: false}
+		})
+		.when('/login', {
+			templateUrl: 'templates/auth/login.html',
+			controller: 'LoginController',
+			access: {restricted: false}
+		})
+
+		
 
 		.otherwise(
 			{
