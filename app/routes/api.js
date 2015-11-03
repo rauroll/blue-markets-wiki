@@ -27,7 +27,7 @@ var User = require('../models/user.js');
 				}
 			});
 		} else {
-			res.status().json({status: 'Unauthorized'});
+			res.status(401).json({status: 'Unauthorized'});
 		}
 	})
 	.post('/login', function(req, res, next) {
