@@ -2,5 +2,27 @@
 	<div class="jumbotron">
 		<h2>{{ site }}</h2>
 		<p>Hello there.</p>
+		<div ng-show='user.username'>
+			<p>Currently logged in as <b>{{ user.username }}</b></p>
+		</div>
+	</div>
+	
+	<div ng-show='user.username'>
+		<li>
+			<a ng-click="logout()" class="btn btn-default">Logout</a>
+		</li>
+		<li>
+			<a href="/account" class="btn btn-default">My account</a>
+		</li>
+	</div>
+	<div ng-show='!user.username'>
+		<li>
+			<a href="/login">
+				<button type="button" class="btn btn-default">Login</button>
+			</a>
+			<a href="/register">
+				<button type="button" class="btn btn-default">Register</button>
+			</a>
+		</li>
 	</div>
 </div>

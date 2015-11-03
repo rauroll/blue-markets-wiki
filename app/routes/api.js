@@ -16,6 +16,20 @@ var User = require('../models/user.js');
 			});
 		});
 	})
+	.get('/current-user', function(req, res) {
+		if (req.session.passport && req.session.passport.user) {
+			User.find({username: req.session.passport.user}, function(err, docs) {
+				if (!err) {
+					res.json(docs);
+				}
+				else {
+					res.status(404).json({status: 'An error occurred.'});
+				}
+			});
+		} else {
+			res.status().json({status: 'Unauthorized'});
+		}
+	})
 	.post('/login', function(req, res, next) {
 		passport.authenticate('local', function(err, user, info) {
 			if (err) {

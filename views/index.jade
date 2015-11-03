@@ -13,11 +13,10 @@ html(ng-app='bmwApp')
 
 
 
-		script(src='js/controllers/MainCtrl.js')
 		script(src='js/controllers/ErrorCtrl.js')
 		script(src='app.js')
 		script(src='js/services/services.js')
-		script(src='js/controllers/LoginCtrl.js')
+		script(src='js/controllers/AuthCtrl.js')
 		
 
 		
@@ -38,24 +37,19 @@ html(ng-app='bmwApp')
 						span.icon-bar
 						span.icon-bar
 
-				center
-					.navbar-collapse.collapse#navbar-auth
-						ul.nav.navbar-nav.navbar-right
-
-							div(ng-if='loggedIn')
-								li
-									a(href='/account')
-										button.btn.btn-link.navbar-btn(type='button') My Account
-								li
-									a(href='/logout' ng-controller='LogoutController')
-										button.btn.btn-link.navbar-btn(type='button') Logout
-							div(ng-if='!loggedIn')
-								//- .alert.alert-danger(ng-show='error') {{errorMessage}}
-								li
-									a(href='/register')
-										button.btn.btn-link.navbar-btn(type='button') Register
-									a(href='/login')
-										button.btn.btn-link.navbar-btn(type='button') Login
+				.navbar-collapse.collapse#navbar-auth
+					ul.nav.navbar-nav.navbar-default
+						li
+							a(href='/') Home
+					ul.nav.navbar-nav.navbar-right
+						li(ng-show='user')
+							a(href='/account') My Account
+						li(ng-show='user')
+							a(href='/logout') Logout
+						li(ng-show='!user')
+							a(href='/register') Register
+						li(ng-show='!user')
+							a(href='/login') Login
 
 
 	body

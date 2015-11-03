@@ -2,26 +2,44 @@ angular.module('bmwApp').factory('AuthService',
 	['$q', '$timeout', '$http',
 	function ($q, $timeout, $http) {
 
-		var user = null;
+		var userStatus = null;
+		var user;
 
 		return ({
 			isLoggedIn: isLoggedIn,
 			getUserStatus: getUserStatus,
 			login: login,
 			logout: logout,
-			register: register
+			register: register,
+			getUserObject: getUserObject
 		});
 
+		function getUserObject() {
+			
+			var deferred = $q.defer();
+			if (user) {
+				deferred.resolve(user);
+			} else {
+				$http.get('/user/current-user')
+					.success(function(data, status) {
+						userStatus = true;
+						user = data[0];
+						deferred.resolve(user);
+					})
+					.error(function(data) {
+						user = undefined;
+						deferred.reject();
+					});
+			}
+			return deferred.promise;
+		}
+
 		function isLoggedIn() {
-				if(user) {
-					return true;
-				} else {
-					return false;
-				}
+				return !!userStatus
 		}
 
 		function getUserStatus() {
-			return user;
+			return userStatus;
 		}
 
 		function login(username, password) {
@@ -31,16 +49,15 @@ angular.module('bmwApp').factory('AuthService',
 			$http.post('/user/login', {username: username, password: password})
 				.success(function (data, status) {
 					if(status === 200 && data.status){
-						user = true;
+						userStatus = true;
 						deferred.resolve();
 					} else {
-						user = false;
+						userStatus = false;
 						deferred.reject();
 					}
 				})
-
 				.error(function (data) {
-					user = false;
+					userStatus = false;
 					deferred.reject();
 				});
 
@@ -53,14 +70,13 @@ angular.module('bmwApp').factory('AuthService',
 			var deferred = $q.defer();
 
 			$http.get('/user/logout')
-
 				.success(function (data) {
-					user = false;
+					userStatus = false;
+					user = undefined;
 					deferred.resolve();
 				})
-
 				.error(function (data) {
-					user = false;
+					userStatus = false;
 					deferred.reject();
 				});
 
@@ -73,7 +89,6 @@ angular.module('bmwApp').factory('AuthService',
 			var deferred = $q.defer();
 
 			$http.post('/user/register', {username: username, password: password})
-
 				.success(function (data, status) {
 					if(status === 200 && data.status){
 						deferred.resolve();
@@ -81,7 +96,6 @@ angular.module('bmwApp').factory('AuthService',
 						deferred.reject();
 					}
 				})
-
 				.error(function (data) {
 					deferred.reject();
 				});

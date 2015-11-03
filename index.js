@@ -36,7 +36,7 @@ app.use(expressSession({
 app.use(passport.initialize());
 app.use(passport.session());
 
-passport.use(new localStrategy(User.authenticate()));
+passport.use(User.createStrategy());
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
@@ -46,7 +46,7 @@ var authRoutes = require('./app/routes/api');
 
 app.use('/user/', authRoutes);
 
-app.get('*', function(req, res) {
+app.get('/*', function(req, res) {
 	console.log("Get request to /");
 	res.render('index');
 });
@@ -57,7 +57,6 @@ app.listen(port);
 console.log("Listening to 3000.");
 
 
-// are these necessary?
 
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
