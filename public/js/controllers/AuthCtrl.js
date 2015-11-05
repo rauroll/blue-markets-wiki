@@ -1,6 +1,6 @@
 angular.module('bmwApp').controller('AuthController', ['$scope', '$rootScope', '$location', 'AuthService', function($scope, $rootScope, $location, AuthService) {
 
-	$scope.site = "Bluemarkets wiki";
+	$rootScope.site = "Bluemarkets wiki";
 
 	AuthService.getUserObject().then(function(user) {
 		$rootScope.user = user;

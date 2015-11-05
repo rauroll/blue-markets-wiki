@@ -3,8 +3,10 @@ html(ng-app='bmwApp')
 	head
 		script(src='libs/jquery/dist/jquery.js')
 		link(rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css")
-		link(rel='stylesheet' href='css/style.css')
 		script(src='libs/bootstrap/dist/js/bootstrap.min.js')
+		link(rel='stylesheet/less' href='less/styles.less' type="text/css")
+		script(src='/libs/less/dist/less.js' type='text/javascript')
+		
 
 		script(src='libs/angular/angular.js')
 		script(src='libs/angular-route/angular-route.js')
@@ -53,5 +55,12 @@ html(ng-app='bmwApp')
 
 
 	body
-		div.container
+		div.container#main-wrapper
+			.col-xs-4.line
+				hr
+			.col-xs-4.logo {{ site }}
+			.col-xs-4.line
+				hr
+
 			div(ng-view)
+			.footer
