@@ -1,12 +1,12 @@
-var bmwApp = angular.module('bmwApp', ['ngRoute', 'ErrorCtrl', 'appRoutes']);
+var bmwApp = angular.module('bmwApp', ['ErrorCtrl', 'ui.router', 'appRoutes']);
 
-bmwApp.run(function ($rootScope, $location, $route, AuthService) {
-	$rootScope.$on('$routeChangeStart', function (event, next, current) {
-		if (!next.access)
-			$location.path('/');
-		if (next.access.restricted && AuthService.isLoggedIn() === false) {
-			$location.path('/login')
-			console.log("Access denied.")
+bmwApp.run(function ($rootScope, $state, $location, AuthService) {
+	$rootScope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
+		if (!toState.access)
+			$state.go('home');
+		if (toState.access.restricted && !AuthService.isLoggedIn()) {
+			e.preventDefault();
+			$state.go('login');
 		}
 	});
 });

@@ -9,14 +9,15 @@ html(ng-app='bmwApp')
 		
 
 		script(src='libs/angular/angular.js')
-		script(src='libs/angular-route/angular-route.js')
+		script(src='libs/angular-ui-router/release/angular-ui-router.js')
 
-		script(src='appRoutes.js')
+		
 
 
 
 		script(src='js/controllers/ErrorCtrl.js')
 		script(src='app.js')
+		script(src='appRoutes.js')
 		script(src='js/services/services.js')
 		script(src='js/controllers/AuthCtrl.js')
 		
@@ -46,8 +47,8 @@ html(ng-app='bmwApp')
 					ul.nav.navbar-nav.navbar-right
 						li(ng-show='user')
 							a(href='/account') My Account
-						li(ng-show='user')
-							a(href='/logout') Logout
+						li(ng-show='user' ng-controller='AuthController')
+							<a ng-click='logout()' class='btn btn-default'>Logout</a>
 						li(ng-show='!user')
 							a(href='/register') Register
 						li(ng-show='!user')
@@ -62,5 +63,5 @@ html(ng-app='bmwApp')
 			.col-xs-4.line
 				hr
 
-			div(ng-view)
+			div(ui-view)
 			.footer
