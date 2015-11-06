@@ -47,7 +47,7 @@ angular.module('bmwApp').controller('AuthController', ['$scope', '$rootScope', '
 		AuthService.register($scope.registerForm.username, $scope.registerForm.password)
 
 		.then(function () {
-			$location.path('/login');
+			$location.path('/');
 			$scope.disabled = false;
 			$scope.registerForm = {};
 		})
