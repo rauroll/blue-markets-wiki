@@ -38,6 +38,12 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 			controller: 'AuthController',
 			access: {restricted: false}
 		})
+		.state('industries', {
+			url: '/industries',
+			templateUrl: 'templates/industries.html',
+			controller: 'IndustriesController',
+			access: {restricted: false}
+		});
 
 
 

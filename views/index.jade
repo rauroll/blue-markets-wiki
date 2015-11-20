@@ -4,7 +4,9 @@ html(ng-app='bmwApp')
 		script(src='libs/jquery/dist/jquery.js')
 		link(rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css")
 		script(src='libs/bootstrap/dist/js/bootstrap.min.js')
+		link(rel='stylesheet/less' href='less/config.less' type="text/css")
 		link(rel='stylesheet/less' href='less/styles.less' type="text/css")
+		link(rel='stylesheet/less' href='less/sidebar.less' type="text/css")
 		script(src='/libs/less/dist/less.js' type='text/javascript')
 		
 
@@ -19,6 +21,7 @@ html(ng-app='bmwApp')
 		script(src='app.js')
 		script(src='appRoutes.js')
 		script(src='js/services/services.js')
+		script(src='js/controllers/IndustriesCtrl.js')
 		script(src='js/controllers/AuthCtrl.js')
 		
 
@@ -43,25 +46,23 @@ html(ng-app='bmwApp')
 				.navbar-collapse.collapse#navbar-auth
 					ul.nav.navbar-nav.navbar-default
 						li
-							a(href='/') Home
+							a(ui-sref='home') Home
+						li
+							a(ui-sref='industries') Industries
 					ul.nav.navbar-nav.navbar-right
 						li(ng-show='user')
-							a(href='/account') My Account
+							a(ui-sref='account') My Account
 						li(ng-show='user' ng-controller='AuthController')
-							<a ng-click='logout()' class='btn btn-default'>Logout</a>
+							a(ng-click='logout()') Logout
 						li(ng-show='!user')
-							a(href='/register') Register
+							a(ui-sref='register') Register
 						li(ng-show='!user')
-							a(href='/login') Login
+							a(ui-sref='login') Login
 
 
 	body
 		div.container#main-wrapper
-			.col-xs-4.line
-				hr
-			.col-xs-4.logo {{ site }}
-			.col-xs-4.line
-				hr
+			
 
 			div(ui-view)
 			.footer
