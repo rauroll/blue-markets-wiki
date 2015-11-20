@@ -1,11 +1,12 @@
 
-angular.module('bmwApp').controller('IndustriesController', ['$scope', function($scope) {
+angular.module('bmwApp').controller('IndustriesController', ['$scope', 'DataService', function($scope, DataService) {
 	
 
 	$scope.setSubindustry = function(sub) {
 		$scope.currentIndustry = sub;
 	}
-	$scope.industries = 
 
-	console.log($scope.industries);
+	DataService.getIndustryData().then(function(data) {
+		$scope.industries = data.industries;
+	});
 }]);

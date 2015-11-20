@@ -41,10 +41,13 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 
-var authRoutes = require('./app/routes/api');
+var authRoutes = require('./app/routes/authApi');
+var dataRoutes = require('./app/routes/dataApi');
+
 
 
 app.use('/user/', authRoutes);
+app.use('/data/', dataRoutes);
 
 app.get('/*', function(req, res) {
 	console.log("Get request to /");

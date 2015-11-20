@@ -1,4 +1,4 @@
-var bmwApp = angular.module('bmwApp', ['ErrorCtrl', 'ui.router', 'appRoutes']);
+var bmwApp = angular.module('bmwApp', ['DataService', 'ErrorCtrl', 'ui.router', 'appRoutes']);
 
 bmwApp.run(function ($rootScope, $state, $location, AuthService) {
 	$rootScope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
