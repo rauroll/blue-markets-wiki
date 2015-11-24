@@ -16,6 +16,7 @@ var port = process.env.PORT || 3000;
 mongoose.connect(db.url);
 
 var User = require('./app/models/user');
+var Industry = require('./app/models/industry');
 
 
 app.set('views', path.join(__dirname, 'views'));
