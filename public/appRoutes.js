@@ -38,12 +38,34 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 			controller: 'AuthController',
 			access: {restricted: false}
 		})
+
+
+		// Industries
+
 		.state('industries', {
+			abstract: true,
 			url: '/industries',
 			templateUrl: 'templates/industries.html',
 			controller: 'IndustriesController',
+			// resolve: {
+			// 	industries: ['DataService',
+			// 		function(DataService) {
+			// 			DataService.getIndustryData()
+			// 		}]
+			// },
 			access: {restricted: false}
-		});
+		})
+		.state('industries.top', {
+			url: '',
+			templateUrl: 'templates/industries.top.html',
+			access: {restricted: false}
+		})
+		.state('industries.sub', {
+			url: '/{code:[0-9]}',
+			templateUrl: 'templates/industries.sub.html',
+			controller: 'SubIndustryController',
+			acces: {restricted: false}
+		})
 
 
 

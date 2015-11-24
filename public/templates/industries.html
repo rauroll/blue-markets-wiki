@@ -16,22 +16,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
-					<div ng-show="currentIndustry">
-						<h2>{{ currentIndustry.name }}</h2>
-						<div ng-show="currentIndustry.subindustry">
-							<h3>This industry has the following subindustries:</h3>
-							<div ng-repeat="industry in currentIndustry.subindustry">
-								<li>
-									<p>{{ industry.name }}</p>
-								</li>
-								<hr>
-							</div>
-						</div>
-					</div>
-					<div ng-show="!currentIndsutry">
-						<h2>Select a top level industry</h2>
-						<p>Add content here</p>
-					</div>
+					<div ui-view class="span9 slide"></div>
 				</div>
 			</div>
 		</div>
