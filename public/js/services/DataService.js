@@ -32,6 +32,22 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 		return deferred.promise;
 	}
 
+	function getIndustry(code) {
+
+		var deferred = $q.defer();
+
+		$http.get('/data/industry?code=' + code)
+		.success(function(data) {
+			deferred.resolve(data);
+		})
+		.error(function() {
+			deferred.reject();
+		})
+
+		return deferred.promise;
+		
+	}
+
 
 	// 
 	function getSubIndustry(code) {
