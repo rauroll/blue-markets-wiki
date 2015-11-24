@@ -24,10 +24,11 @@ html(ng-app='bmwApp')
 		script(src='js/services/AuthService.js')
 
 		script(src='js/controllers/IndustriesCtrl.js')
+		script(src='js/controllers/SubIndustryCtrl.js')
 		script(src='js/controllers/AuthCtrl.js')
 		
 
-		
+
 
 
 
@@ -50,7 +51,7 @@ html(ng-app='bmwApp')
 						li
 							a(ui-sref='home') Home
 						li
-							a(ui-sref='industries') Industries
+							a(href='industries') Industries
 					ul.nav.navbar-nav.navbar-right
 						li(ng-show='user')
 							a(ui-sref='account') My Account

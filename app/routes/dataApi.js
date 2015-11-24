@@ -5,22 +5,26 @@ var Industry = require('../models/industry.js');
 
 
 
-router.get('/industries', function(req, res) {
-	return res.send(industries);
-});
-
-
-router.get('/industry/:code', function(req, res) {
-	var code = req.params.code;
-	Industry.find({"code": code}, function(err, docs) {
+router.get('/industries_top', function(req, res) {
+	Industry.find({"level": 1}, function(err, docs) {
 		if (!err) {
 			res.json(docs)
 		} else {
 			res.status(404).send({status: "Not found"});
 		}
-	}
-	if 
-	return res.send(ind);
+	})
+});
+
+
+router.get('/industries/:code', function(req, res) {
+	var code = req.params.code;
+	Industry.find({"code": code}, function(err, docs) {
+		if (!err) {
+			res.json(docs);
+		} else {
+			res.status(404).send({status: "Not found"});
+		}
+	});
 });
 
 module.exports = router;

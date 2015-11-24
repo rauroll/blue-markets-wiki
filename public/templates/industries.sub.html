@@ -1,12 +1,12 @@
 <div>
-	<h2>{{ currentIndustry.name }}</h2>
-	<div ng-show="currentIndustry.subindustry">
+	<h2>{{ industry.name }}</h2>
+	<div>
 		<h3>This industry has the following subindustries:</h3>
-		<!--<div ng-repeat="industry in currentIndustry.subindustry">
+		<div ng-repeat="subindustry in subIndustries">
 			<li>
-				<p>{{ industry.name }}</p>
+				<a ui-sref="industries.sub({industryCode: subindustry.code})">{{ subindustry.name }}</p>
 			</li>
 			<hr>
-		</div>-->
+		</div>
 	</div>
 </div>

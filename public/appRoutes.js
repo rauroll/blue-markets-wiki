@@ -61,10 +61,10 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 			access: {restricted: false}
 		})
 		.state('industries.sub', {
-			url: '/{code:[0-9]}',
+			url: '/{industryCode:[0-9]{1,8}}',
 			templateUrl: 'templates/industries.sub.html',
 			controller: 'SubIndustryController',
-			acces: {restricted: false}
+			access: {restricted: false}
 		})
 
 

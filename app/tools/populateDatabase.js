@@ -6,6 +6,8 @@ var db = require('../../config/db');
 
 mongoose.connect(db.url);
 
+console.log("Writing industries to the database...");
+
 
 var ind = industryJson.industries;
 var level = 0;
@@ -32,8 +34,6 @@ function checkSubIndustries(industry) {
 	//    	if (err) return handleError(err);
 	//  	});
 
-	console.log(industryObject);
-
 	industry.subindustry.forEach(function(sub) {
 		checkSubIndustries(sub);
 	});
@@ -42,6 +42,8 @@ function checkSubIndustries(industry) {
 	level--;
 
 }
+
+console.log("Database populated.");
 
 mongoose.disconnect();
 

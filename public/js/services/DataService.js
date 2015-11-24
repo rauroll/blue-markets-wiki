@@ -1,33 +1,25 @@
 angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeout', function($q, $http, $timeout) {
 
-	var industryData;
 
 	return ({
-		getIndustryData: getIndustryData
-	})
+		getTopLevelIndustries: getTopLevelIndustries,
+		getIndustry: getIndustry
+	});
 
 
-	function getIndustryData() {
+
+
+	function getTopLevelIndustries() {
 
 		var deferred = $q.defer();
-		
-		console.log("Requesting industry data from the server");
 
-		// For this prototype the data is assumed to not change during a session
-
-		if (!industryData) {
-			$http.get('/data/industries')
-			.success(function(data) {
-				industryData = data;
-				deferred.resolve(data);
-			})
-			.error(function() {
-				industryData = undefined;
-				deferred.reject();
-			})
-		} else {
-			deferred.resolve(industryData);
-		}
+		$http.get('/data/industries_top')
+		.success(function(data) {
+			deferred.resolve(data);
+		})
+		.error(function() {
+			deferred.reject();
+		});
 
 		return deferred.promise;
 	}
@@ -36,36 +28,16 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 
 		var deferred = $q.defer();
 
-		$http.get('/data/industry?code=' + code)
+		$http.get('/data/industries/' + code)
 		.success(function(data) {
 			deferred.resolve(data);
 		})
 		.error(function() {
 			deferred.reject();
-		})
-
-		return deferred.promise;
-		
-	}
-
-
-	// 
-	function getSubIndustry(code) {
-
-		var deferred = $q.defer();
-
-		getIndustryData().then(function(data) {
-			var industries = data.industries;
-			for (var i = 0; i < industries.length; i++) {
-				if (industries[i].code === code) {
-					deferred.resolve(industries[i]);
-					return;
-				}
-			}
-			deferred.reject();
 		});
 
 		return deferred.promise;
+
 	}
 
 }]);
