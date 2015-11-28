@@ -2,10 +2,12 @@
   "name": "bluemarkets",
   "version": "1.0.0",
   "dependencies": {
+    "angular-ui-router": "~0.2.15",
     "angular": "latest",
     "angular-route": "latest",
     "bootstrap": "latest",
     "font-awesome": "latest",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "less": "~2.5.3"
   }
 }
