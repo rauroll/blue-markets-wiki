@@ -24,13 +24,6 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 			access: {restricted: false}
 		})
 
-		.state('home.search-results', {
-			url: '/results',
-			templateUrl: 'templates/search-results.html',
-			controller: 'IndustriesCtrl',
-			access: {restricted: false}
-		})
-
 		// User
 
 		.state('account', {
