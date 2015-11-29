@@ -1,0 +1,30 @@
+
+<h2>{{ industry.name }}</h2>
+<ul class="nav nav-tabs" id="tabs">
+	<li ui-sref-active="active"><a ui-sref="industries.sub.summary">Summary</a></li>
+	<li ui-sref-active="active"><a ui-sref="industries.sub.top-players">Top players</a></li>
+	<li ui-sref-active="active"><a ui-sref="industries.sub.experts">Experts</a></li>
+	<li ui-sref-active="active"><a ui-sref="industries.sub.reports">Reports</a></li>
+	<li ui-sref-active="active"><a ui-sref="industries.sub.future">Future</a></li>
+</ul>
+
+<div class="tab-content">
+	<div ui-view>
+	</div>
+</div>
+
+<div class="container" id="main-wrapper">
+	<div>
+		<h2>{{ industry.name }}</h2>
+		<div ng-show="subIndustries.length">
+			<h3>This industry has the following subindustries:</h3>
+			<div ng-repeat="subindustry in subIndustries">
+				<li>
+					<a ui-sref="industries.sub.summary({industryCode: subindustry.code})">{{ subindustry.name }}</a>
+					<hr>
+				</li>
+			</div>
+		</div>
+	</div>
+</div>
+

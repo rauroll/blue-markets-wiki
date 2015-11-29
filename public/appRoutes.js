@@ -45,25 +45,45 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 		.state('industries', {
 			abstract: true,
 			url: '/industries',
-			templateUrl: 'templates/industries.html',
+			templateUrl: 'templates/industry/industries.html',
 			controller: 'IndustriesController',
-			// resolve: {
-			// 	industries: ['DataService',
-			// 		function(DataService) {
-			// 			DataService.getIndustryData()
-			// 		}]
-			// },
 			access: {restricted: false}
 		})
 		.state('industries.top', {
 			url: '',
-			templateUrl: 'templates/industries.top.html',
+			templateUrl: 'templates/industry/industries.top.html',
 			access: {restricted: false}
 		})
 		.state('industries.sub', {
+			abstract: true,
 			url: '/{industryCode:[0-9]{1,8}}',
-			templateUrl: 'templates/industries.sub.html',
+			templateUrl: 'templates/industry/industries.sub.html',
 			controller: 'SubIndustryController',
+			access: {restricted: false}
+		})
+		.state('industries.sub.summary', {
+			url: '',
+			templateUrl: 'templates/industry/industries.sub.summary.html',
+			access: {restricted: false}
+		})
+		.state('industries.sub.top-players', {
+			url: '/top-players',
+			templateUrl: 'templates/industry/industries.sub.top-players.html',
+			access: {restricted: false}
+		})
+		.state('industries.sub.experts', {
+			url: '/experts',
+			templateUrl: 'templates/industry/industries.sub.experts.html',
+			access: {restricted: false}
+		})
+		.state('industries.sub.reports', {
+			url: '/reports',
+			templateUrl: 'templates/industry/industries.sub.reports.html',
+			access: {restricted: false} // Should this be restricted perhaps?
+		})
+		.state('industries.sub.future', {
+			url: '/future',
+			templateUrl: 'templates/industry/industries.sub.future.html',
 			access: {restricted: false}
 		})
 

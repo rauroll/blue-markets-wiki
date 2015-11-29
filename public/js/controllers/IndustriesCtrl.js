@@ -1,5 +1,5 @@
 
-angular.module('bmwApp').controller('IndustriesController', ['$scope', 'DataService', function($scope, DataService) {
+angular.module('bmwApp').controller('IndustriesController', ['$scope',  'DataService', function($scope, DataService) {
 	
 
 	DataService.getTopLevelIndustries().then(function(data) {
