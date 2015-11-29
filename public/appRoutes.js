@@ -3,15 +3,18 @@
 angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
 
 
-		$urlRouterProvider.otherwise('home');
+	$urlRouterProvider.otherwise('home');
 
-		$stateProvider
+	$stateProvider
+
+		// General
 
 		.state('home', {
 			url: '/',
 			templateUrl: 'templates/home.html',
-			controller: 'AuthController',
+			controller: 'MainController',
 			access: {restricted: false}
+
 		})
 
 		.state('error', {
@@ -20,6 +23,16 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 			controller: 'ErrorController',
 			access: {restricted: false}
 		})
+
+		.state('home.search-results', {
+			url: '/results',
+			templateUrl: 'templates/search-results.html',
+			controller: 'IndustriesCtrl',
+			access: {restricted: false}
+		})
+
+		// User
+
 		.state('account', {
 			url: '/account',
 			templateUrl: 'templates/account.html',
@@ -38,6 +51,7 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 			controller: 'AuthController',
 			access: {restricted: false}
 		})
+
 
 
 		// Industries
@@ -89,6 +103,6 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 
 
 
-	$locationProvider.html5Mode(true);	
+		$locationProvider.html5Mode(true);	
 
-}]);
+	}]);

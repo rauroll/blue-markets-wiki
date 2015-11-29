@@ -3,8 +3,11 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 
 	return ({
 		getTopLevelIndustries: getTopLevelIndustries,
-		getIndustry: getIndustry
+		getIndustry: getIndustry,
+		searchIndustries: searchIndustries
 	});
+
+	var searchResults; // Where the previous search results are stored
 
 
 
@@ -38,6 +41,22 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 
 		return deferred.promise;
 
+	}
+
+	function searchIndustries(keywords) {
+
+		var deferred = $q.defer();
+
+		$http.post('/data/search', {searchString: keywords})
+		.success(function(data) {
+			deferred.resolve(data);
+
+		})
+		.error(function() {
+			deferred.reject();
+		});
+
+		return deferred.promise;
 	}
 
 }]);

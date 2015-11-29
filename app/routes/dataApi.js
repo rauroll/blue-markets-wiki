@@ -27,4 +27,16 @@ router.get('/industries/:code', function(req, res) {
 	});
 });
 
+
+router.post('/search', function(req, res) {
+	var query = req.body.searchString;
+	Industry.find({name: {$regex: ".*" + query + ".*", $options: "-i"}}, function(err, docs) {
+		if (!err) {
+			res.json(docs);
+		} else {
+			res.status(404).send({status: "Not found"});
+		}
+	})
+})
+
 module.exports = router;
