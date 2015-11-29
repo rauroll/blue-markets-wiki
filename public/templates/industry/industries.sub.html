@@ -6,7 +6,13 @@
 	<li ui-sref-active="active"><a ui-sref="industries.sub.experts">Experts</a></li>
 	<li ui-sref-active="active"><a ui-sref="industries.sub.reports">Reports</a></li>
 	<li ui-sref-active="active"><a ui-sref="industries.sub.future">Future</a></li>
-</ul>
+	<li class="dropdown" ng-show="subIndustries.length">
+		<a data-target="#" href="#" data-toggle="dropdown" class="dropdown-toggle">Subindustries</a>
+		<ul class="dropdown-menu">
+			<li ng-repeat="subindustry in subIndustries"><a ui-sref="industries.sub.summary({industryCode: subindustry.code})">{{ subindustry.name }}</a></li>
+		</ul>
+	</li>
+</ul> 
 
 <div class="tab-content">
 	<div ui-view>
@@ -14,17 +20,6 @@
 </div>
 
 <div class="container" id="main-wrapper">
-	<div>
-		<h2>{{ industry.name }}</h2>
-		<div ng-show="subIndustries.length">
-			<h3>This industry has the following subindustries:</h3>
-			<div ng-repeat="subindustry in subIndustries">
-				<li>
-					<a ui-sref="industries.sub.summary({industryCode: subindustry.code})">{{ subindustry.name }}</a>
-					<hr>
-				</li>
-			</div>
-		</div>
-	</div>
+
 </div>
 
