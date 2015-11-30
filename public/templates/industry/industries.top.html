@@ -1,4 +1,11 @@
 <div class="container" id="main-wrapper">
-	<h2>Select a top level industry</h2>
-	<p>Add content here</p>
+	<h2>Top level industries</h2>
+	<div class="row">
+		<div class="col-md-4 portfolio-item" ng-repeat="industry in industries">
+			<a ui-sref="industries.sub.summary({industryCode: industry.code})">
+				<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+			</a>
+			<h4><a ui-sref="industries.sub.summary({industryCode: industry.code})">{{industry.name}}</a></h4>
+		</div>
+	</div>
 </div>

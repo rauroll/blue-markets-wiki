@@ -11,7 +11,7 @@ angular.module('bmwApp').controller('SubIndustryController', ['$scope', '$state'
 			var parents = $scope.industry.parentindustryCodes;
 			
 			$scope.subIndustries = [];
-			$scope.path = [];
+			$scope.parents = [];
 
 			for (var i = 0; i < subs.length; i++) {
 				DataService.getIndustry(subs[i]).then(function(data) {
@@ -21,7 +21,7 @@ angular.module('bmwApp').controller('SubIndustryController', ['$scope', '$state'
 
 			for (var i = 0; i < parents.length; i++) {
 				DataService.getIndustry(parents[i]).then(function(data) {
-					$scope.path.push(data[0]);
+					$scope.parents.push(data[0]);
 				});
 			}
 		});
