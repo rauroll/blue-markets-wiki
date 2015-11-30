@@ -1,0 +1,12 @@
+<div id="my-path">
+	<span ng-repeat="parent in parents">
+		<a ui-sref="industries.sub.summary({industryCode: parent.code})">
+			{{ parent.name }}
+		</a> >
+	</span>
+	<span>
+		<b>
+			{{ industry.name }}
+		</b>
+	</span>
+</div>
