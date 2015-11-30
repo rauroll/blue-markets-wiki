@@ -6,5 +6,7 @@ angular.module('bmwApp').controller('IndustriesController', ['$scope',  'DataSer
 		$scope.industries = data;
 	});
 
+	
+
 
 }]);

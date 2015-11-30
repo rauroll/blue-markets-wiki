@@ -11,6 +11,7 @@ console.log("Writing industries to the database...");
 
 var ind = industryJson.industries;
 var level = 0;
+var parentCodes = [];
 
 for (var i = 0; i < ind.length; i++) {
 	checkSubIndustries(ind[i]);
@@ -23,20 +24,24 @@ function checkSubIndustries(industry) {
 		code: industry.code,
 		name: industry.name,
 		level: level,
-		subindustryCodes: industry.subindustry.map(x => x.code)
+		subindustryCodes: industry.subindustry.map(x => x.code),
+		parentindustryCodes: parentCodes
 	});
+
 
 
 	// Remove the comments here to enable saving to database
 	// =============================================
 
-	// industryObject.save(function (err) {
-	//    	if (err) return handleError(err);
-	//  	});
-
+	industryObject.save(function (err) {
+		if (err) return handleError(err);
+	});
+	
+	parentCodes.push(industry.code);
 	industry.subindustry.forEach(function(sub) {
 		checkSubIndustries(sub);
 	});
+	parentCodes.pop();
 
 
 	level--;

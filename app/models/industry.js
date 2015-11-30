@@ -6,7 +6,8 @@ var Industry = new Schema({
   code: Number,
   level: Number,
   name: String,
-  subindustryCodes: [{type: Number, ref: 'Subindustry'}]
+  subindustryCodes: [{type: Number, ref: 'Subindustry'}],
+  parentindustryCodes: [{type: Number, ref: 'Parentindustry'}]
 });
 
 
