@@ -2,6 +2,11 @@
 
 * {
 	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 0 !important;
+	outline: 0 !important;
+
+	border: 0 !important;
 }
 
 html, body {
@@ -78,9 +83,22 @@ body {
 
 .mySearchResults {
 	background-color: @light-grey;
+	padding: 3em;
+	margin: 2em;
+}
+
+#search-results-table {
+	overflow-y: scroll;
+	max-height: 500px;
 }
 
 #top-level-item {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
 	.item-text-wrapper {
 		height: 50px;
 	}
@@ -92,6 +110,10 @@ a:hover {
 }
 
 #top-level-item:hover {
-	opacity: 0.8;
+	-webkit-transform:scale(1.05);
+	-moz-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	-o-transform:scale(1.05);
+	transform:scale(1.05);
 }
 

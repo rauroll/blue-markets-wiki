@@ -1,13 +1,29 @@
 <div ng-show="searchResults.length" class="mySearchResults">
-	<h2>Search results</h2>
-	<table class="table text-left">
-		<tr>
-			<th>Name</th>
-			<th>Level of industry</th>
-		</tr>
-		<tr ng-repeat="industry in searchResults">
-			<td>{{ industry.name }}</td>
-			<td>{{ industry.level }}</td>
-		</tr>
-	</table>
+	<div>
+		<div class="row">
+			<div class="col-xs-8 text-left">
+				<h2>Search results</h2>
+			</div>
+			<div class="col-xs-4 text-right">
+				<button class="btn btn-default" ng-click="closeResults()">
+					Close
+				</button>
+			</div>
+
+		</div>
+		<div id="search-results-table">
+			<table class="table text-left">
+				<tr>
+					<th>Name</th>
+					<th>Level of industry</th>
+				</tr>
+				
+				<tr ng-repeat="industry in searchResults" class="fade-in-only">
+					<td><a ui-sref="industries.sub.summary({industryCode: industry.code})">{{ industry.name }}</a></td>
+					<td>{{ industry.level }}</td>
+				</tr>
+				
+			</table>
+		</div>
+	</div>
 </div>
