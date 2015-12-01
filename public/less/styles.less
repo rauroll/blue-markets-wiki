@@ -12,8 +12,8 @@ html, body {
 
 
 body {
-		padding-top: 50px;
-	}
+	padding-top: 50px;
+}
 
 .wide {
 	width:100%;
@@ -22,17 +22,18 @@ body {
 }
 
 .container#main-wrapper {
-	background-color: rgba(255, 255, 255, 0.95);
+	background-color: rgba(0, 0, 0, 0.03);
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto;
+	padding: 3em;
 }
 
 .content-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 
 .footer, .push {
 	height: 142px;
@@ -57,29 +58,40 @@ body {
 
 .blue-ocean {
 	width:100% !important;
-    padding-bottom: 20px;
-    text-align: center;
-    color: #f8f8f8;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #f8f8f8;
 	padding-top:200px;
 	min-height:300px;
-    background: url(../img/ocean.jpg) no-repeat left bottom;
-    background-size: cover;
+	background: url(../img/ocean.jpg) no-repeat left bottom;
+	background-size: cover;
 
-  }
+}
 
-  .home-header{
-  position:relative;
-  }
-  .search-bar{
-  position:absolute;
-  bottom:0;
-  }
+.home-header{
+	position:relative;
+}
+.search-bar{
+	position:absolute;
+	bottom:0;
+}
 
-  .mySearchResults {
-  	background-color: @light-grey;
-  }
+.mySearchResults {
+	background-color: @light-grey;
+}
 
+#top-level-item {
+	.item-text-wrapper {
+		height: 50px;
+	}
+}
 
+a:hover {
+	text-decoration: none;
+	
+}
 
-
+#top-level-item:hover {
+	opacity: 0.8;
+}
 

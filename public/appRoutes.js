@@ -10,7 +10,7 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 		// General
 
 		.state('home', {
-			url: '/',
+			url: '/asd',
 			templateUrl: 'templates/home.html',
 			controller: 'MainController',
 			access: {restricted: false}
@@ -51,9 +51,9 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 
 		.state('industries', {
 			abstract: true,
-			url: '/industries',
+			url: '/',
 			templateUrl: 'templates/industry/industries.html',
-			controller: 'IndustriesController',
+			controller: 'MainController',
 			access: {restricted: false}
 		})
 		.state('industries.top', {
@@ -63,7 +63,7 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 		})
 		.state('industries.sub', {
 			abstract: true,
-			url: '/{industryCode:[0-9]{1,8}}',
+			url: 'industry/{industryCode:[0-9]{1,8}}',
 			templateUrl: 'templates/industry/industries.sub.html',
 			controller: 'SubIndustryController',
 			access: {restricted: false}
