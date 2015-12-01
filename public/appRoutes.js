@@ -9,14 +9,6 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 
 		// General
 
-		.state('home', {
-			url: '/asd',
-			templateUrl: 'templates/home.html',
-			controller: 'MainController',
-			access: {restricted: false}
-
-		})
-
 		.state('error', {
 			url: '/error',
 			templateUrl: 'templates/error.html',

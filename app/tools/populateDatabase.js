@@ -30,8 +30,6 @@ function checkSubIndustries(industry) {
 
 
 
-	// Remove the comments here to enable saving to database
-	// =============================================
 
 	industryObject.save(function (err) {
 		if (err) return handleError(err);
