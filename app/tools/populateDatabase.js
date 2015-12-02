@@ -9,6 +9,9 @@ mongoose.connect(db.url);
 console.log("Writing industries to the database...");
 
 
+Industry.remove({});
+
+
 var ind = industryJson.industries;
 var level = 0;
 var parentCodes = [];

@@ -4,7 +4,8 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 	return ({
 		getTopLevelIndustries: getTopLevelIndustries,
 		getIndustry: getIndustry,
-		searchIndustries: searchIndustries
+		searchIndustries: searchIndustries,
+		createRequest: createRequest
 	});
 
 	var searchResults; // Where the previous search results are stored
@@ -59,4 +60,38 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 		return deferred.promise;
 	}
 
+	function createRequest(code, msg, type) {
+		var deferred = $q.defer();
+		console.log("creating a request");
+		$http.post('/data/requests/new', {code: code, msg: msg, type: type})
+		.success(function(data) {
+			deferred.resolve(data);
+		})
+		.error(function() {
+			deferred.reject();
+		})
+
+		return deferred.promise;
+
+	}
+
+	function getRequests() {
+		var deferred = $q.defer();
+
+		$http.get('/data/requests')
+		.success(function(data) {
+			deferred.resolve(data);
+		})
+		.error(function() {
+			deferred.reject();
+		});
+
+		return deferred.promise;
+	}
+
 }]);
+
+
+
+
+

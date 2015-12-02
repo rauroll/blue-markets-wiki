@@ -20,7 +20,7 @@ angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouter
 
 		.state('account', {
 			url: '/account',
-			templateUrl: 'templates/account.html',
+			templateUrl: 'templates/auth/account.html',
 			controller: 'AuthController',
 			access: {restricted: true}
 		})

@@ -1,0 +1,23 @@
+<div ng-show="!requestFormOpened">
+	<button class="btn btn-default" ng-click="openRequestForm()">Request {{requestType}}</button>
+</div>
+<div ng-show="requestFormOpened">
+	<form class="form" ng-submit="createRequest()">
+		<div class="row">
+			<div class="form-group col-xs-6">
+				<input type="text" class="form-control" name="message" ng-model="requestForm.message" placeholder="Leave a request message" required>
+				<input type="hidden" class="form-control" name="requestType" ng-model="requestForm.requestType" required value="{{requestType}}">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-8">
+				<button class="btn btn-default" ng-click="closeRequestForm()">Close</button>
+				<button type="submit" class="btn btn-info" ng-disabled="disabled">Send</button>
+				
+			</div>
+
+		</div>
+		
+	</form>
+	
+</div>

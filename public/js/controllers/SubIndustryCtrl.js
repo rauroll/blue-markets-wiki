@@ -6,7 +6,7 @@ angular.module('bmwApp').controller('SubIndustryController', ['$scope', '$state'
 
 		DataService.getIndustry($stateParams.industryCode).then(function(data) {
 			$scope.industry = data[0];
-			
+
 			var subs = $scope.industry.subindustryCodes;
 			var parents = $scope.industry.parentindustryCodes;
 			
@@ -26,6 +26,13 @@ angular.module('bmwApp').controller('SubIndustryController', ['$scope', '$state'
 			}
 		});
 	}
+
+	$scope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
+		if (toState == 'account') {
+			$scope.getRequests();
+		}
+	})
+
 
 	loadData();
 	
