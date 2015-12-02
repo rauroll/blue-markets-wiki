@@ -5,7 +5,8 @@ angular.module('DataService', []).factory('DataService', ['$q', '$http', '$timeo
 		getTopLevelIndustries: getTopLevelIndustries,
 		getIndustry: getIndustry,
 		searchIndustries: searchIndustries,
-		createRequest: createRequest
+		createRequest: createRequest,
+		getRequests: getRequests
 	});
 
 	var searchResults; // Where the previous search results are stored

@@ -14,13 +14,6 @@ angular.module('bmwApp')
 				$scope.requestForm = {};
 			}
 
-			$scope.getRequests = function() {
-				DataService.getRequests().then(function(data) {
-					console.log("Requests fetched.");
-					$scope.requests = data;
-				});
-			}
-
 			$scope.openRequestForm = function() {
 				$scope.requestFormOpened = true;
 			}
@@ -30,9 +23,7 @@ angular.module('bmwApp')
 
 			$scope.setRequestTypeByContext = function($state) {
 				var toState = $state.current.name;
-				if (toState == 'account') {
-					$scope.getRequests();
-				} else if (toState == 'industries.sub.summary') {
+				if (toState == 'industries.sub.summary') {
 					$scope.requestType = "content";
 				} else if (toState == 'industries.sub.experts') {
 					$scope.requestType = "expert";
