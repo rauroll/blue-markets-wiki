@@ -1,5 +1,5 @@
 {
-   "industries": [
+"industries":[
       {"code" : "11", "name" : "Agriculture, Forestry, Fishing and Hunting", "subindustry" : [
          {"code" : "111", "name" : "Crop Production", "subindustry" : [
             {"code" : "1111", "name" : "Oilseed and Grain Farming", "subindustry" : [
@@ -15,10 +15,8 @@
                ]}
             ]},
             {"code" : "1112", "name" : "Vegetable and Melon Farming", "subindustry" : [
-               {"code" : "11121", "name" : "Vegetable and Melon Farming", "subindustry" : [
-                  {"code" : "111211", "name" : "Potato Farming", "subindustry" : []},
-                  {"code" : "111219", "name" : "Other Vegetable (except Potato) and Melon Farming", "subindustry" : []}
-               ]}
+               {"code" : "111211", "name" : "Potato Farming", "subindustry" : []},
+               {"code" : "111219", "name" : "Other Vegetable (except Potato) and Melon Farming", "subindustry" : []}
             ]},
             {"code" : "1113", "name" : "Fruit and Tree Nut Farming", "subindustry" : [
                {"code" : "11131", "name" : "Orange Groves", "subindustry" : []},
@@ -62,11 +60,9 @@
                   {"code" : "112112", "name" : "Cattle Feedlots", "subindustry" : []}
                ]},
                {"code" : "11212", "name" : "Dairy Cattle and Milk Production", "subindustry" : []},
-               {"code" : "11213", "name" : "DualPurpose Cattle Ranching and Farming", "subindustry" : []}
+               {"code" : "11213", "name" : "Dual-Purpose Cattle Ranching and Farming", "subindustry" : []}
             ]},
-            {"code" : "1122", "name" : "Hog and Pig Farming", "subindustry" : [
-               {"code" : "11221", "name" : "Hog and Pig Farming", "subindustry" : []}
-            ]},
+            {"code" : "1122", "name" : "Hog and Pig Farming", "subindustry" : []},
             {"code" : "1123", "name" : "Poultry and Egg Production", "subindustry" : [
                {"code" : "11231", "name" : "Chicken Egg Production", "subindustry" : []},
                {"code" : "11232", "name" : "Broilers and Other Meat Type Chicken Production", "subindustry" : []},
@@ -79,77 +75,53 @@
                {"code" : "11242", "name" : "Goat Farming", "subindustry" : []}
             ]},
             {"code" : "1125", "name" : "Aquaculture", "subindustry" : [
-               {"code" : "11251", "name" : "Aquaculture", "subindustry" : [
-                  {"code" : "112511", "name" : "Finfish Farming and Fish Hatcheries", "subindustry" : []},
-                  {"code" : "112512", "name" : "Shellfish Farming", "subindustry" : []},
-                  {"code" : "112519", "name" : "Other Aquaculture", "subindustry" : []}
-               ]}
+               {"code" : "112511", "name" : "Finfish Farming and Fish Hatcheries", "subindustry" : []},
+               {"code" : "112512", "name" : "Shellfish Farming", "subindustry" : []},
+               {"code" : "112519", "name" : "Other Aquaculture", "subindustry" : []}
             ]},
             {"code" : "1129", "name" : "Other Animal Production", "subindustry" : [
                {"code" : "11291", "name" : "Apiculture", "subindustry" : []},
                {"code" : "11292", "name" : "Horses and Other Equine Production", "subindustry" : []},
-               {"code" : "11293", "name" : "FurBearing Animal and Rabbit Production", "subindustry" : []},
+               {"code" : "11293", "name" : "Fur-Bearing Animal and Rabbit Production", "subindustry" : []},
                {"code" : "11299", "name" : "All Other Animal Production", "subindustry" : []}
             ]}
          ]},
          {"code" : "113", "name" : "Forestry and Logging", "subindustry" : [
-            {"code" : "1131", "name" : "Timber Tract Operations", "subindustry" : [
-               {"code" : "11311", "name" : "Timber Tract Operations", "subindustry" : []}
-            ]},
-            {"code" : "1132", "name" : "Forest Nurseries and Gathering of Forest Products", "subindustry" : [
-               {"code" : "11321", "name" : "Forest Nurseries and Gathering of Forest Products", "subindustry" : []}
-            ]},
-            {"code" : "1133", "name" : "Logging", "subindustry" : [
-               {"code" : "11331", "name" : "Logging", "subindustry" : []}
-            ]}
+            {"code" : "1131", "name" : "Timber Tract Operations", "subindustry" : []},
+            {"code" : "1132", "name" : "Forest Nurseries and Gathering of Forest Products", "subindustry" : []},
+            {"code" : "1133", "name" : "Logging", "subindustry" : []}
          ]},
          {"code" : "114", "name" : "Fishing, Hunting and Trapping", "subindustry" : [
             {"code" : "1141", "name" : "Fishing", "subindustry" : [
-               {"code" : "11411", "name" : "Fishing", "subindustry" : [
-                  {"code" : "114111", "name" : "Finfish Fishing", "subindustry" : []},
-                  {"code" : "114112", "name" : "Shellfish Fishing", "subindustry" : []},
-                  {"code" : "114119", "name" : "Other Marine Fishing", "subindustry" : []}
-               ]}
+               {"code" : "114111", "name" : "Finfish Fishing", "subindustry" : []},
+               {"code" : "114112", "name" : "Shellfish Fishing", "subindustry" : []},
+               {"code" : "114119", "name" : "Other Marine Fishing", "subindustry" : []}
             ]},
-            {"code" : "1142", "name" : "Hunting and Trapping", "subindustry" : [
-               {"code" : "11421", "name" : "Hunting and Trapping", "subindustry" : []}
-            ]}
+            {"code" : "1142", "name" : "Hunting and Trapping", "subindustry" : []}
          ]},
          {"code" : "115", "name" : "Support Activities for Agriculture and Forestry", "subindustry" : [
             {"code" : "1151", "name" : "Support Activities for Crop Production", "subindustry" : [
-               {"code" : "11511", "name" : "Support Activities for Crop Production", "subindustry" : [
-                  {"code" : "115111", "name" : "Cotton Ginning", "subindustry" : []},
-                  {"code" : "115112", "name" : "Soil Preparation, Planting, and Cultivating", "subindustry" : []},
-                  {"code" : "115113", "name" : "Crop Harvesting, Primarily by Machine", "subindustry" : []},
-                  {"code" : "115114", "name" : "Postharvest Crop Activities (except Cotton Ginning)", "subindustry" : []},
-                  {"code" : "115115", "name" : "Farm Labor Contractors and Crew Leaders", "subindustry" : []},
-                  {"code" : "115116", "name" : "Farm Management Services", "subindustry" : []}
-               ]}
+               {"code" : "115111", "name" : "Cotton Ginning", "subindustry" : []},
+               {"code" : "115112", "name" : "Soil Preparation, Planting, and Cultivating", "subindustry" : []},
+               {"code" : "115113", "name" : "Crop Harvesting, Primarily by Machine", "subindustry" : []},
+               {"code" : "115114", "name" : "Postharvest Crop Activities (except Cotton Ginning)", "subindustry" : []},
+               {"code" : "115115", "name" : "Farm Labor Contractors and Crew Leaders", "subindustry" : []},
+               {"code" : "115116", "name" : "Farm Management Services", "subindustry" : []}
             ]},
-            {"code" : "1152", "name" : "Support Activities for Animal Production", "subindustry" : [
-               {"code" : "11521", "name" : "Support Activities for Animal Production", "subindustry" : []}
-            ]},
-            {"code" : "1153", "name" : "Support Activities for Forestry", "subindustry" : [
-               {"code" : "11531", "name" : "Support Activities for Forestry", "subindustry" : []}
-            ]}
+            {"code" : "1152", "name" : "Support Activities for Animal Production", "subindustry" : []},
+            {"code" : "1153", "name" : "Support Activities for Forestry", "subindustry" : []}
          ]}
       ]},
       {"code" : "21", "name" : "Mining, Quarrying, and Oil and Gas Extraction", "subindustry" : [
          {"code" : "211", "name" : "Oil and Gas Extraction", "subindustry" : [
-            {"code" : "2111", "name" : "Oil and Gas Extraction", "subindustry" : [
-               {"code" : "21111", "name" : "Oil and Gas Extraction", "subindustry" : [
-                  {"code" : "211111", "name" : "Crude Petroleum and Natural Gas Extraction", "subindustry" : []},
-                  {"code" : "211112", "name" : "Natural Gas Liquid Extraction", "subindustry" : []}
-               ]}
-            ]}
+            {"code" : "211111", "name" : "Crude Petroleum and Natural Gas Extraction", "subindustry" : []},
+            {"code" : "211112", "name" : "Natural Gas Liquid Extraction", "subindustry" : []}
          ]},
          {"code" : "212", "name" : "Mining (except Oil and Gas)", "subindustry" : [
             {"code" : "2121", "name" : "Coal Mining", "subindustry" : [
-               {"code" : "21211", "name" : "Coal Mining", "subindustry" : [
-                  {"code" : "212111", "name" : "Bituminous Coal and Lignite Surface Mining", "subindustry" : []},
-                  {"code" : "212112", "name" : "Bituminous Coal Underground Mining", "subindustry" : []},
-                  {"code" : "212113", "name" : "Anthracite Mining", "subindustry" : []}
-               ]}
+               {"code" : "212111", "name" : "Bituminous Coal and Lignite Surface Mining", "subindustry" : []},
+               {"code" : "212112", "name" : "Bituminous Coal Underground Mining", "subindustry" : []},
+               {"code" : "212113", "name" : "Anthracite Mining", "subindustry" : []}
             ]},
             {"code" : "2122", "name" : "Metal Ore Mining", "subindustry" : [
                {"code" : "21221", "name" : "Iron Ore Mining", "subindustry" : []},
@@ -162,7 +134,7 @@
                   {"code" : "212234", "name" : "Copper Ore and Nickel Ore Mining", "subindustry" : []}
                ]},
                {"code" : "21229", "name" : "Other Metal Ore Mining", "subindustry" : [
-                  {"code" : "212291", "name" : "UraniumRadiumVanadium Ore Mining", "subindustry" : []},
+                  {"code" : "212291", "name" : "Uranium-Radium-Vanadium Ore Mining", "subindustry" : []},
                   {"code" : "212299", "name" : "All Other Metal Ore Mining", "subindustry" : []}
                ]}
             ]},
@@ -188,54 +160,44 @@
             ]}
          ]},
          {"code" : "213", "name" : "Support Activities for Mining", "subindustry" : [
-            {"code" : "2131", "name" : "Support Activities for Mining", "subindustry" : [
-               {"code" : "21311", "name" : "Support Activities for Mining", "subindustry" : [
-                  {"code" : "213111", "name" : "Drilling Oil and Gas Wells", "subindustry" : []},
-                  {"code" : "213112", "name" : "Support Activities for Oil and Gas Operations", "subindustry" : []},
-                  {"code" : "213113", "name" : "Support Activities for Coal Mining", "subindustry" : []},
-                  {"code" : "213114", "name" : "Support Activities for Metal Mining", "subindustry" : []},
-                  {"code" : "213115", "name" : "Support Activities for Nonmetallic Minerals (except Fuels) Mining", "subindustry" : []}
-               ]}
-            ]}
+            {"code" : "213111", "name" : "Drilling Oil and Gas Wells", "subindustry" : []},
+            {"code" : "213112", "name" : "Support Activities for Oil and Gas Operations", "subindustry" : []},
+            {"code" : "213113", "name" : "Support Activities for Coal Mining", "subindustry" : []},
+            {"code" : "213114", "name" : "Support Activities for Metal Mining", "subindustry" : []},
+            {"code" : "213115", "name" : "Support Activities for Nonmetallic Minerals (except Fuels) Mining", "subindustry" : []}
          ]}
       ]},
       {"code" : "22", "name" : "Utilities", "subindustry" : [
-         {"code" : "221", "name" : "Utilities", "subindustry" : [
-            {"code" : "2211", "name" : "Electric Power Generation, Transmission and Distribution", "subindustry" : [
-               {"code" : "22111", "name" : "Electric Power Generation", "subindustry" : [
-                  {"code" : "221111", "name" : "Hydroelectric Power Generation", "subindustry" : []},
-                  {"code" : "221112", "name" : "Fossil Fuel Electric Power Generation", "subindustry" : []},
-                  {"code" : "221113", "name" : "Nuclear Electric Power Generation", "subindustry" : []},
-                  {"code" : "221114", "name" : "Solar Electric Power Generation", "subindustry" : []},
-                  {"code" : "221115", "name" : "Wind Electric Power Generation", "subindustry" : []},
-                  {"code" : "221116", "name" : "Geothermal Electric Power Generation", "subindustry" : []},
-                  {"code" : "221117", "name" : "Biomass Electric Power Generation", "subindustry" : []},
-                  {"code" : "221118", "name" : "Other Electric Power Generation", "subindustry" : []}
-               ]},
+         {"code" : "2211", "name" : "Electric Power Generation, Transmission and Distribution", "subindustry" : [
+            {"code" : "22111", "name" : "Electric Power Generation", "subindustry" : [
+               {"code" : "221111", "name" : "Hydroelectric Power Generation", "subindustry" : []},
+               {"code" : "221112", "name" : "Fossil Fuel Electric Power Generation", "subindustry" : []},
+               {"code" : "221113", "name" : "Nuclear Electric Power Generation", "subindustry" : []},
+               {"code" : "221114", "name" : "Solar Electric Power Generation", "subindustry" : []},
+               {"code" : "221115", "name" : "Wind Electric Power Generation", "subindustry" : []},
+               {"code" : "221116", "name" : "Geothermal Electric Power Generation", "subindustry" : []},
+               {"code" : "221117", "name" : "Biomass Electric Power Generation", "subindustry" : []},
+               {"code" : "221118", "name" : "Other Electric Power Generation", "subindustry" : []},
                {"code" : "22112", "name" : "Electric Power Transmission, Control, and Distribution", "subindustry" : [
                   {"code" : "221121", "name" : "Electric Bulk Power Transmission and Control", "subindustry" : []},
                   {"code" : "221122", "name" : "Electric Power Distribution", "subindustry" : []}
                ]}
             ]},
-            {"code" : "2212", "name" : "Natural Gas Distribution", "subindustry" : [
-               {"code" : "22121", "name" : "Natural Gas Distribution", "subindustry" : []}
-            ]},
+            {"code" : "2212", "name" : "Natural Gas Distribution", "subindustry" : []},
             {"code" : "2213", "name" : "Water, Sewage and Other Systems", "subindustry" : [
                {"code" : "22131", "name" : "Water Supply and Irrigation Systems", "subindustry" : []},
                {"code" : "22132", "name" : "Sewage Treatment Facilities", "subindustry" : []},
-               {"code" : "22133", "name" : "Steam and AirConditioning Supply", "subindustry" : []}
+               {"code" : "22133", "name" : "Steam and Air-Conditioning Supply", "subindustry" : []}
             ]}
          ]}
       ]},
       {"code" : "23", "name" : "Construction", "subindustry" : [
          {"code" : "236", "name" : "Construction of Buildings", "subindustry" : [
             {"code" : "2361", "name" : "Residential Building Construction", "subindustry" : [
-               {"code" : "23611", "name" : "Residential Building Construction", "subindustry" : [
-                  {"code" : "236115", "name" : "New SingleFamily Housing Construction (except ForSale Builders)", "subindustry" : []},
-                  {"code" : "236116", "name" : "New Multifamily Housing Construction (except ForSale Builders)", "subindustry" : []},
-                  {"code" : "236117", "name" : "New Housing ForSale Builders", "subindustry" : []},
-                  {"code" : "236118", "name" : "Residential Remodelers", "subindustry" : []}
-               ]}
+               {"code" : "236115", "name" : "New Single-Family Housing Construction (except For-Sale Builders)", "subindustry" : []},
+               {"code" : "236116", "name" : "New Multifamily Housing Construction (except For-Sale Builders)", "subindustry" : []},
+               {"code" : "236117", "name" : "New Housing For-Sale Builders", "subindustry" : []},
+               {"code" : "236118", "name" : "Residential Remodelers", "subindustry" : []}
             ]},
             {"code" : "2362", "name" : "Nonresidential Building Construction", "subindustry" : [
                {"code" : "23621", "name" : "Industrial Building Construction", "subindustry" : []},
@@ -248,15 +210,9 @@
                {"code" : "23712", "name" : "Oil and Gas Pipeline and Related Structures Construction", "subindustry" : []},
                {"code" : "23713", "name" : "Power and Communication Line and Related Structures Construction", "subindustry" : []}
             ]},
-            {"code" : "2372", "name" : "Land Subdivision", "subindustry" : [
-               {"code" : "23721", "name" : "Land Subdivision", "subindustry" : []}
-            ]},
-            {"code" : "2373", "name" : "Highway, Street, and Bridge Construction", "subindustry" : [
-               {"code" : "23731", "name" : "Highway, Street, and Bridge Construction", "subindustry" : []}
-            ]},
-            {"code" : "2379", "name" : "Other Heavy and Civil Engineering Construction", "subindustry" : [
-               {"code" : "23799", "name" : "Other Heavy and Civil Engineering Construction", "subindustry" : []}
-            ]}
+            {"code" : "2372", "name" : "Land Subdivision", "subindustry" : []},
+            {"code" : "2373", "name" : "Highway, Street, and Bridge Construction", "subindustry" : []},
+            {"code" : "2379", "name" : "Other Heavy and Civil Engineering Construction", "subindustry" : []}
          ]},
          {"code" : "238", "name" : "Specialty Trade Contractors", "subindustry" : [
             {"code" : "2381", "name" : "Foundation, Structure, and Building Exterior Contractors", "subindustry" : [
@@ -271,7 +227,7 @@
             ]},
             {"code" : "2382", "name" : "Building Equipment Contractors", "subindustry" : [
                {"code" : "23821", "name" : "Electrical Contractors and Other Wiring Installation Contractors", "subindustry" : []},
-               {"code" : "23822", "name" : "Plumbing, Heating, and AirConditioning Contractors", "subindustry" : []},
+               {"code" : "23822", "name" : "Plumbing, Heating, and Air-Conditioning Contractors", "subindustry" : []},
                {"code" : "23829", "name" : "Other Building Equipment Contractors", "subindustry" : []}
             ]},
             {"code" : "2383", "name" : "Building Finishing Contractors", "subindustry" : [
@@ -284,16 +240,14 @@
             ]},
             {"code" : "2389", "name" : "Other Specialty Trade Contractors", "subindustry" : [
                {"code" : "23891", "name" : "Site Preparation Contractors", "subindustry" : []},
-               {"code" : "23899", "name" : "All Other Specialty Trade Contractors", "subindustry" : []}
-            ]},
-            {"code" : "3133", "name" : "Manufacturing", "subindustry" : []}
+               {"code" : "23899", "name" : "All Other Specialty Trade Contractors", "subindustry" : []},
+               {"code" : "31-33", "name" : "Manufacturing", "subindustry" : []}
+            ]}
          ]},
          {"code" : "311", "name" : "Food Manufacturing", "subindustry" : [
             {"code" : "3111", "name" : "Animal Food Manufacturing", "subindustry" : [
-               {"code" : "31111", "name" : "Animal Food Manufacturing", "subindustry" : [
-                  {"code" : "311111", "name" : "Dog and Cat Food Manufacturing", "subindustry" : []},
-                  {"code" : "311119", "name" : "Other Animal Food Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "311111", "name" : "Dog and Cat Food Manufacturing", "subindustry" : []},
+               {"code" : "311119", "name" : "Other Animal Food Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3112", "name" : "Grain and Oilseed Milling", "subindustry" : [
                {"code" : "31121", "name" : "Flour Milling and Malt Manufacturing", "subindustry" : [
@@ -340,16 +294,12 @@
                {"code" : "31152", "name" : "Ice Cream and Frozen Dessert Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3116", "name" : "Animal Slaughtering and Processing", "subindustry" : [
-               {"code" : "31161", "name" : "Animal Slaughtering and Processing", "subindustry" : [
-                  {"code" : "311611", "name" : "Animal (except Poultry) Slaughtering", "subindustry" : []},
-                  {"code" : "311612", "name" : "Meat Processed from Carcasses", "subindustry" : []},
-                  {"code" : "311613", "name" : "Rendering and Meat Byproduct Processing", "subindustry" : []},
-                  {"code" : "311615", "name" : "Poultry Processing", "subindustry" : []}
-               ]}
+               {"code" : "311611", "name" : "Animal (except Poultry) Slaughtering", "subindustry" : []},
+               {"code" : "311612", "name" : "Meat Processed from Carcasses", "subindustry" : []},
+               {"code" : "311613", "name" : "Rendering and Meat Byproduct Processing", "subindustry" : []},
+               {"code" : "311615", "name" : "Poultry Processing", "subindustry" : []}
             ]},
-            {"code" : "3117", "name" : "Seafood Product Preparation and Packaging", "subindustry" : [
-               {"code" : "31171", "name" : "Seafood Product Preparation and Packaging", "subindustry" : []}
-            ]},
+            {"code" : "3117", "name" : "Seafood Product Preparation and Packaging", "subindustry" : []},
             {"code" : "3118", "name" : "Bakeries and Tortilla Manufacturing", "subindustry" : [
                {"code" : "31181", "name" : "Bread and Bakery Product Manufacturing", "subindustry" : [
                   {"code" : "311811", "name" : "Retail Bakeries", "subindustry" : []},
@@ -390,14 +340,10 @@
                {"code" : "31213", "name" : "Wineries", "subindustry" : []},
                {"code" : "31214", "name" : "Distilleries", "subindustry" : []}
             ]},
-            {"code" : "3122", "name" : "Tobacco Manufacturing", "subindustry" : [
-               {"code" : "31223", "name" : "Tobacco Manufacturing", "subindustry" : []}
-            ]}
+            {"code" : "3122", "name" : "Tobacco Manufacturing", "subindustry" : []}
          ]},
          {"code" : "313", "name" : "Textile Mills", "subindustry" : [
-            {"code" : "3131", "name" : "Fiber, Yarn, and Thread Mills", "subindustry" : [
-               {"code" : "31311", "name" : "Fiber, Yarn, and Thread Mills", "subindustry" : []}
-            ]},
+            {"code" : "3131", "name" : "Fiber, Yarn, and Thread Mills", "subindustry" : []},
             {"code" : "3132", "name" : "Fabric Mills", "subindustry" : [
                {"code" : "31321", "name" : "Broadwoven Fabric Mills", "subindustry" : []},
                {"code" : "31322", "name" : "Narrow Fabric Mills and Schiffli Machine Embroidery", "subindustry" : []},
@@ -429,43 +375,31 @@
             ]},
             {"code" : "3152", "name" : "Cut and Sew Apparel Manufacturing", "subindustry" : [
                {"code" : "31521", "name" : "Cut and Sew Apparel Contractors", "subindustry" : []},
-               {"code" : "31522", "name" : "Menâ€™s and Boysâ€™ Cut and Sew Apparel Manufacturing", "subindustry" : []},
-               {"code" : "31524", "name" : "Womenâ€™s, Girlsâ€™, and Infantsâ€™ Cut and Sew Apparel Manufacturing", "subindustry" : []},
+               {"code" : "31522", "name" : "Men’s and Boys’ Cut and Sew Apparel Manufacturing", "subindustry" : []},
+               {"code" : "31524", "name" : "Women’s, Girls’, and Infants’ Cut and Sew Apparel Manufacturing", "subindustry" : []},
                {"code" : "31528", "name" : "Other Cut and Sew Apparel Manufacturing", "subindustry" : []}
             ]},
-            {"code" : "3159", "name" : "Apparel Accessories and Other Apparel Manufacturing", "subindustry" : [
-               {"code" : "31599", "name" : "Apparel Accessories and Other Apparel Manufacturing", "subindustry" : []}
-            ]}
+            {"code" : "3159", "name" : "Apparel Accessories and Other Apparel Manufacturing", "subindustry" : []}
          ]},
          {"code" : "316", "name" : "Leather and Allied Product Manufacturing", "subindustry" : [
-            {"code" : "3161", "name" : "Leather and Hide Tanning and Finishing", "subindustry" : [
-               {"code" : "31611", "name" : "Leather and Hide Tanning and Finishing", "subindustry" : []}
-            ]},
-            {"code" : "3162", "name" : "Footwear Manufacturing", "subindustry" : [
-               {"code" : "31621", "name" : "Footwear Manufacturing", "subindustry" : []}
-            ]},
+            {"code" : "3161", "name" : "Leather and Hide Tanning and Finishing", "subindustry" : []},
+            {"code" : "3162", "name" : "Footwear Manufacturing", "subindustry" : []},
             {"code" : "3169", "name" : "Other Leather and Allied Product Manufacturing", "subindustry" : [
-               {"code" : "31699", "name" : "Other Leather and Allied Product Manufacturing", "subindustry" : [
-                  {"code" : "316992", "name" : "Women's Handbag and Purse Manufacturing", "subindustry" : []},
-                  {"code" : "316998", "name" : "All Other Leather Good and Allied Product Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "316992", "name" : "Women's Handbag and Purse Manufacturing", "subindustry" : []},
+               {"code" : "316998", "name" : "All Other Leather Good and Allied Product Manufacturing", "subindustry" : []}
             ]}
          ]},
          {"code" : "321", "name" : "Wood Product Manufacturing", "subindustry" : [
             {"code" : "3211", "name" : "Sawmills and Wood Preservation", "subindustry" : [
-               {"code" : "32111", "name" : "Sawmills and Wood Preservation", "subindustry" : [
-                  {"code" : "321113", "name" : "Sawmills", "subindustry" : []},
-                  {"code" : "321114", "name" : "Wood Preservation", "subindustry" : []}
-               ]}
+               {"code" : "321113", "name" : "Sawmills", "subindustry" : []},
+               {"code" : "321114", "name" : "Wood Preservation", "subindustry" : []}
             ]},
             {"code" : "3212", "name" : "Veneer, Plywood, and Engineered Wood Product Manufacturing", "subindustry" : [
-               {"code" : "32121", "name" : "Veneer, Plywood, and Engineered Wood Product Manufacturing", "subindustry" : [
-                  {"code" : "321211", "name" : "Hardwood Veneer and Plywood Manufacturing", "subindustry" : []},
-                  {"code" : "321212", "name" : "Softwood Veneer and Plywood Manufacturing", "subindustry" : []},
-                  {"code" : "321213", "name" : "Engineered Wood Member (except Truss) Manufacturing", "subindustry" : []},
-                  {"code" : "321214", "name" : "Truss Manufacturing", "subindustry" : []},
-                  {"code" : "321219", "name" : "Reconstituted Wood Product Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "321211", "name" : "Hardwood Veneer and Plywood Manufacturing", "subindustry" : []},
+               {"code" : "321212", "name" : "Softwood Veneer and Plywood Manufacturing", "subindustry" : []},
+               {"code" : "321213", "name" : "Engineered Wood Member (except Truss) Manufacturing", "subindustry" : []},
+               {"code" : "321214", "name" : "Truss Manufacturing", "subindustry" : []},
+               {"code" : "321219", "name" : "Reconstituted Wood Product Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3219", "name" : "Other Wood Product Manufacturing", "subindustry" : [
                {"code" : "32191", "name" : "Millwork", "subindustry" : [
@@ -505,22 +439,18 @@
             ]}
          ]},
          {"code" : "323", "name" : "Printing and Related Support Activities", "subindustry" : [
-            {"code" : "3231", "name" : "Printing and Related Support Activities", "subindustry" : [
-               {"code" : "32311", "name" : "Printing", "subindustry" : [
-                  {"code" : "323111", "name" : "Commercial Printing (except Screen and Books)", "subindustry" : []},
-                  {"code" : "323113", "name" : "Commercial Screen Printing", "subindustry" : []},
-                  {"code" : "323117", "name" : "Books Printing", "subindustry" : []}
-               ]},
+            {"code" : "32311", "name" : "Printing", "subindustry" : [
+               {"code" : "323111", "name" : "Commercial Printing (except Screen and Books)", "subindustry" : []},
+               {"code" : "323113", "name" : "Commercial Screen Printing", "subindustry" : []},
+               {"code" : "323117", "name" : "Books Printing", "subindustry" : []},
                {"code" : "32312", "name" : "Support Activities for Printing", "subindustry" : []}
             ]}
          ]},
          {"code" : "324", "name" : "Petroleum and Coal Products Manufacturing", "subindustry" : [
-            {"code" : "3241", "name" : "Petroleum and Coal Products Manufacturing", "subindustry" : [
-               {"code" : "32411", "name" : "Petroleum Refineries", "subindustry" : []},
-               {"code" : "32412", "name" : "Asphalt Paving, Roofing, and Saturated Materials Manufacturing", "subindustry" : [
-                  {"code" : "324121", "name" : "Asphalt Paving Mixture and Block Manufacturing", "subindustry" : []},
-                  {"code" : "324122", "name" : "Asphalt Shingle and Coating Materials Manufacturing", "subindustry" : []}
-               ]},
+            {"code" : "32411", "name" : "Petroleum Refineries", "subindustry" : []},
+            {"code" : "32412", "name" : "Asphalt Paving, Roofing, and Saturated Materials Manufacturing", "subindustry" : [
+               {"code" : "324121", "name" : "Asphalt Paving Mixture and Block Manufacturing", "subindustry" : []},
+               {"code" : "324122", "name" : "Asphalt Shingle and Coating Materials Manufacturing", "subindustry" : []},
                {"code" : "32419", "name" : "Other Petroleum and Coal Products Manufacturing", "subindustry" : [
                   {"code" : "324191", "name" : "Petroleum Lubricating Oil and Grease Manufacturing", "subindustry" : []},
                   {"code" : "324199", "name" : "All Other Petroleum and Coal Products Manufacturing", "subindustry" : []}
@@ -555,12 +485,10 @@
                {"code" : "32532", "name" : "Pesticide and Other Agricultural Chemical Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3254", "name" : "Pharmaceutical and Medicine Manufacturing", "subindustry" : [
-               {"code" : "32541", "name" : "Pharmaceutical and Medicine Manufacturing", "subindustry" : [
-                  {"code" : "325411", "name" : "Medicinal and Botanical Manufacturing", "subindustry" : []},
-                  {"code" : "325412", "name" : "Pharmaceutical Preparation Manufacturing", "subindustry" : []},
-                  {"code" : "325413", "name" : "InVitro Diagnostic Substance Manufacturing", "subindustry" : []},
-                  {"code" : "325414", "name" : "Biological Product (except Diagnostic) Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "325411", "name" : "Medicinal and Botanical Manufacturing", "subindustry" : []},
+               {"code" : "325412", "name" : "Pharmaceutical Preparation Manufacturing", "subindustry" : []},
+               {"code" : "325413", "name" : "In-Vitro Diagnostic Substance Manufacturing", "subindustry" : []},
+               {"code" : "325414", "name" : "Biological Product (except Diagnostic) Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3255", "name" : "Paint, Coating, and Adhesive Manufacturing", "subindustry" : [
                {"code" : "32551", "name" : "Paint and Coating Manufacturing", "subindustry" : []},
@@ -622,16 +550,14 @@
                {"code" : "32712", "name" : "Clay Building Material and Refractories Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3272", "name" : "Glass and Glass Product Manufacturing", "subindustry" : [
-               {"code" : "32721", "name" : "Glass and Glass Product Manufacturing", "subindustry" : [
-                  {"code" : "327211", "name" : "Flat Glass Manufacturing", "subindustry" : []},
-                  {"code" : "327212", "name" : "Other Pressed and Blown Glass and Glassware Manufacturing", "subindustry" : []},
-                  {"code" : "327213", "name" : "Glass Container Manufacturing", "subindustry" : []},
-                  {"code" : "327215", "name" : "Glass Product Manufacturing Made of Purchased Glass", "subindustry" : []}
-               ]}
+               {"code" : "327211", "name" : "Flat Glass Manufacturing", "subindustry" : []},
+               {"code" : "327212", "name" : "Other Pressed and Blown Glass and Glassware Manufacturing", "subindustry" : []},
+               {"code" : "327213", "name" : "Glass Container Manufacturing", "subindustry" : []},
+               {"code" : "327215", "name" : "Glass Product Manufacturing Made of Purchased Glass", "subindustry" : []}
             ]},
             {"code" : "3273", "name" : "Cement and Concrete Product Manufacturing", "subindustry" : [
                {"code" : "32731", "name" : "Cement Manufacturing", "subindustry" : []},
-               {"code" : "32732", "name" : "ReadyMix Concrete Manufacturing", "subindustry" : []},
+               {"code" : "32732", "name" : "Ready-Mix Concrete Manufacturing", "subindustry" : []},
                {"code" : "32733", "name" : "Concrete Pipe, Brick, and Block Manufacturing", "subindustry" : [
                   {"code" : "327331", "name" : "Concrete Block and Brick Manufacturing", "subindustry" : []},
                   {"code" : "327332", "name" : "Concrete Pipe Manufacturing", "subindustry" : []}
@@ -653,9 +579,7 @@
             ]}
          ]},
          {"code" : "331", "name" : "Primary Metal Manufacturing", "subindustry" : [
-            {"code" : "3311", "name" : "Iron and Steel Mills and Ferroalloy Manufacturing", "subindustry" : [
-               {"code" : "33111", "name" : "Iron and Steel Mills and Ferroalloy Manufacturing", "subindustry" : []}
-            ]},
+            {"code" : "3311", "name" : "Iron and Steel Mills and Ferroalloy Manufacturing", "subindustry" : []},
             {"code" : "3312", "name" : "Steel Product Manufacturing from Purchased Steel", "subindustry" : [
                {"code" : "33121", "name" : "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel", "subindustry" : []},
                {"code" : "33122", "name" : "Rolling and Drawing of Purchased Steel", "subindustry" : [
@@ -664,12 +588,10 @@
                ]}
             ]},
             {"code" : "3313", "name" : "Alumina and Aluminum Production and Processing", "subindustry" : [
-               {"code" : "33131", "name" : "Alumina and Aluminum Production and Processing", "subindustry" : [
-                  {"code" : "331313", "name" : "Alumina Refining and Primary Aluminum Production", "subindustry" : []},
-                  {"code" : "331314", "name" : "Secondary Smelting and Alloying of Aluminum", "subindustry" : []},
-                  {"code" : "331315", "name" : "Aluminum Sheet, Plate, and Foil Manufacturing", "subindustry" : []},
-                  {"code" : "331318", "name" : "Other Aluminum Rolling, Drawing, and Extruding", "subindustry" : []}
-               ]}
+               {"code" : "331313", "name" : "Alumina Refining and Primary Aluminum Production", "subindustry" : []},
+               {"code" : "331314", "name" : "Secondary Smelting and Alloying of Aluminum", "subindustry" : []},
+               {"code" : "331315", "name" : "Aluminum Sheet, Plate, and Foil Manufacturing", "subindustry" : []},
+               {"code" : "331318", "name" : "Other Aluminum Rolling, Drawing, and Extruding", "subindustry" : []}
             ]},
             {"code" : "3314", "name" : "Nonferrous Metal (except Aluminum) Production and Processing", "subindustry" : [
                {"code" : "33141", "name" : "Nonferrous Metal (except Aluminum) Smelting and Refining", "subindustry" : []},
@@ -686,27 +608,23 @@
                   {"code" : "331513", "name" : "Steel Foundries (except Investment)", "subindustry" : []}
                ]},
                {"code" : "33152", "name" : "Nonferrous Metal Foundries", "subindustry" : [
-                  {"code" : "331523", "name" : "Nonferrous Metal DieCasting Foundries", "subindustry" : []},
-                  {"code" : "331524", "name" : "Aluminum Foundries (except DieCasting)", "subindustry" : []},
-                  {"code" : "331529", "name" : "Other Nonferrous Metal Foundries (except DieCasting)", "subindustry" : []}
+                  {"code" : "331523", "name" : "Nonferrous Metal Die-Casting Foundries", "subindustry" : []},
+                  {"code" : "331524", "name" : "Aluminum Foundries (except Die-Casting)", "subindustry" : []},
+                  {"code" : "331529", "name" : "Other Nonferrous Metal Foundries (except Die-Casting)", "subindustry" : []}
                ]}
             ]}
          ]},
          {"code" : "332", "name" : "Fabricated Metal Product Manufacturing", "subindustry" : [
             {"code" : "3321", "name" : "Forging and Stamping", "subindustry" : [
-               {"code" : "33211", "name" : "Forging and Stamping", "subindustry" : [
-                  {"code" : "332111", "name" : "Iron and Steel Forging", "subindustry" : []},
-                  {"code" : "332112", "name" : "Nonferrous Forging", "subindustry" : []},
-                  {"code" : "332114", "name" : "Custom Roll Forming", "subindustry" : []},
-                  {"code" : "332117", "name" : "Powder Metallurgy Part Manufacturing", "subindustry" : []},
-                  {"code" : "332119", "name" : "Metal Crown, Closure, and Other Metal Stamping (except Automotive)", "subindustry" : []}
-               ]}
+               {"code" : "332111", "name" : "Iron and Steel Forging", "subindustry" : []},
+               {"code" : "332112", "name" : "Nonferrous Forging", "subindustry" : []},
+               {"code" : "332114", "name" : "Custom Roll Forming", "subindustry" : []},
+               {"code" : "332117", "name" : "Powder Metallurgy Part Manufacturing", "subindustry" : []},
+               {"code" : "332119", "name" : "Metal Crown, Closure, and Other Metal Stamping (except Automotive)", "subindustry" : []}
             ]},
             {"code" : "3322", "name" : "Cutlery and Handtool Manufacturing", "subindustry" : [
-               {"code" : "33221", "name" : "Cutlery and Handtool Manufacturing", "subindustry" : [
-                  {"code" : "332215", "name" : "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing", "subindustry" : []},
-                  {"code" : "332216", "name" : "Saw Blade and Handtool Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "332215", "name" : "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing", "subindustry" : []},
+               {"code" : "332216", "name" : "Saw Blade and Handtool Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3323", "name" : "Architectural and Structural Metals Manufacturing", "subindustry" : [
                {"code" : "33231", "name" : "Plate Work and Fabricated Structural Product Manufacturing", "subindustry" : [
@@ -728,14 +646,10 @@
                   {"code" : "332439", "name" : "Other Metal Container Manufacturing", "subindustry" : []}
                ]}
             ]},
-            {"code" : "3325", "name" : "Hardware Manufacturing", "subindustry" : [
-               {"code" : "33251", "name" : "Hardware Manufacturing", "subindustry" : []}
-            ]},
+            {"code" : "3325", "name" : "Hardware Manufacturing", "subindustry" : []},
             {"code" : "3326", "name" : "Spring and Wire Product Manufacturing", "subindustry" : [
-               {"code" : "33261", "name" : "Spring and Wire Product Manufacturing", "subindustry" : [
-                  {"code" : "332613", "name" : "Spring Manufacturing", "subindustry" : []},
-                  {"code" : "332618", "name" : "Other Fabricated Wire Product Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "332613", "name" : "Spring Manufacturing", "subindustry" : []},
+               {"code" : "332618", "name" : "Other Fabricated Wire Product Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3327", "name" : "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing", "subindustry" : [
                {"code" : "33271", "name" : "Machine Shops", "subindustry" : []},
@@ -745,11 +659,9 @@
                ]}
             ]},
             {"code" : "3328", "name" : "Coating, Engraving, Heat Treating, and Allied Activities", "subindustry" : [
-               {"code" : "33281", "name" : "Coating, Engraving, Heat Treating, and Allied Activities", "subindustry" : [
-                  {"code" : "332811", "name" : "Metal Heat Treating", "subindustry" : []},
-                  {"code" : "332812", "name" : "Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers", "subindustry" : []},
-                  {"code" : "332813", "name" : "Electroplating, Plating, Polishing, Anodizing, and Coloring", "subindustry" : []}
-               ]}
+               {"code" : "332811", "name" : "Metal Heat Treating", "subindustry" : []},
+               {"code" : "332812", "name" : "Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers", "subindustry" : []},
+               {"code" : "332813", "name" : "Electroplating, Plating, Polishing, Anodizing, and Coloring", "subindustry" : []}
             ]},
             {"code" : "3329", "name" : "Other Fabricated Metal Product Manufacturing", "subindustry" : [
                {"code" : "33291", "name" : "Metal Valve Manufacturing", "subindustry" : [
@@ -781,44 +693,34 @@
                ]}
             ]},
             {"code" : "3332", "name" : "Industrial Machinery Manufacturing", "subindustry" : [
-               {"code" : "33324", "name" : "Industrial Machinery Manufacturing", "subindustry" : [
-                  {"code" : "333241", "name" : "Food Product Machinery Manufacturing", "subindustry" : []},
-                  {"code" : "333242", "name" : "Semiconductor Machinery Manufacturing", "subindustry" : []},
-                  {"code" : "333243", "name" : "Sawmill, Woodworking, and Paper Machinery Manufacturing", "subindustry" : []},
-                  {"code" : "333244", "name" : "Printing Machinery and Equipment Manufacturing", "subindustry" : []},
-                  {"code" : "333249", "name" : "Other Industrial Machinery Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "333241", "name" : "Food Product Machinery Manufacturing", "subindustry" : []},
+               {"code" : "333242", "name" : "Semiconductor Machinery Manufacturing", "subindustry" : []},
+               {"code" : "333243", "name" : "Sawmill, Woodworking, and Paper Machinery Manufacturing", "subindustry" : []},
+               {"code" : "333244", "name" : "Printing Machinery and Equipment Manufacturing", "subindustry" : []},
+               {"code" : "333249", "name" : "Other Industrial Machinery Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3333", "name" : "Commercial and Service Industry Machinery Manufacturing", "subindustry" : [
-               {"code" : "33331", "name" : "Commercial and Service Industry Machinery Manufacturing", "subindustry" : [
-                  {"code" : "333314", "name" : "Optical Instrument and Lens Manufacturing", "subindustry" : []},
-                  {"code" : "333316", "name" : "Photographic and Photocopying Equipment Manufacturing", "subindustry" : []},
-                  {"code" : "333318", "name" : "Other Commercial and Service Industry Machinery Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "333314", "name" : "Optical Instrument and Lens Manufacturing", "subindustry" : []},
+               {"code" : "333316", "name" : "Photographic and Photocopying Equipment Manufacturing", "subindustry" : []},
+               {"code" : "333318", "name" : "Other Commercial and Service Industry Machinery Manufacturing", "subindustry" : []}
             ]},
-            {"code" : "3334", "name" : "Ventilation, Heating, AirConditioning, and Commercial Refrigeration Equipment Manufacturing", "subindustry" : [
-               {"code" : "33341", "name" : "Ventilation, Heating, AirConditioning, and Commercial Refrigeration Equipment Manufacturing", "subindustry" : [
-                  {"code" : "333413", "name" : "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing", "subindustry" : []},
-                  {"code" : "333414", "name" : "Heating Equipment (except Warm Air Furnaces) Manufacturing", "subindustry" : []},
-                  {"code" : "333415", "name" : "AirConditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing", "subindustry" : []}
-               ]}
+            {"code" : "3334", "name" : "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing", "subindustry" : [
+               {"code" : "333413", "name" : "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing", "subindustry" : []},
+               {"code" : "333414", "name" : "Heating Equipment (except Warm Air Furnaces) Manufacturing", "subindustry" : []},
+               {"code" : "333415", "name" : "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3335", "name" : "Metalworking Machinery Manufacturing", "subindustry" : [
-               {"code" : "33351", "name" : "Metalworking Machinery Manufacturing", "subindustry" : [
-                  {"code" : "333511", "name" : "Industrial Mold Manufacturing", "subindustry" : []},
-                  {"code" : "333514", "name" : "Special Die and Tool, Die Set, Jig, and Fixture Manufacturing", "subindustry" : []},
-                  {"code" : "333515", "name" : "Cutting Tool and Machine Tool Accessory Manufacturing", "subindustry" : []},
-                  {"code" : "333517", "name" : "Machine Tool Manufacturing", "subindustry" : []},
-                  {"code" : "333519", "name" : "Rolling Mill and Other Metalworking Machinery Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "333511", "name" : "Industrial Mold Manufacturing", "subindustry" : []},
+               {"code" : "333514", "name" : "Special Die and Tool, Die Set, Jig, and Fixture Manufacturing", "subindustry" : []},
+               {"code" : "333515", "name" : "Cutting Tool and Machine Tool Accessory Manufacturing", "subindustry" : []},
+               {"code" : "333517", "name" : "Machine Tool Manufacturing", "subindustry" : []},
+               {"code" : "333519", "name" : "Rolling Mill and Other Metalworking Machinery Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3336", "name" : "Engine, Turbine, and Power Transmission Equipment Manufacturing", "subindustry" : [
-               {"code" : "33361", "name" : "Engine, Turbine, and Power Transmission Equipment Manufacturing", "subindustry" : [
-                  {"code" : "333611", "name" : "Turbine and Turbine Generator Set Units Manufacturing", "subindustry" : []},
-                  {"code" : "333612", "name" : "Speed Changer, Industrial HighSpeed Drive, and Gear Manufacturing", "subindustry" : []},
-                  {"code" : "333613", "name" : "Mechanical Power Transmission Equipment Manufacturing", "subindustry" : []},
-                  {"code" : "333618", "name" : "Other Engine Equipment Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "333611", "name" : "Turbine and Turbine Generator Set Units Manufacturing", "subindustry" : []},
+               {"code" : "333612", "name" : "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing", "subindustry" : []},
+               {"code" : "333613", "name" : "Mechanical Power Transmission Equipment Manufacturing", "subindustry" : []},
+               {"code" : "333618", "name" : "Other Engine Equipment Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3339", "name" : "Other General Purpose Machinery Manufacturing", "subindustry" : [
                {"code" : "33391", "name" : "Pump and Compressor Manufacturing", "subindustry" : [
@@ -833,7 +735,7 @@
                   {"code" : "333924", "name" : "Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing", "subindustry" : []}
                ]},
                {"code" : "33399", "name" : "All Other General Purpose Machinery Manufacturing", "subindustry" : [
-                  {"code" : "333991", "name" : "PowerDriven Handtool Manufacturing", "subindustry" : []},
+                  {"code" : "333991", "name" : "Power-Driven Handtool Manufacturing", "subindustry" : []},
                   {"code" : "333992", "name" : "Welding and Soldering Equipment Manufacturing", "subindustry" : []},
                   {"code" : "333993", "name" : "Packaging Machinery Manufacturing", "subindustry" : []},
                   {"code" : "333994", "name" : "Industrial Process Furnace and Oven Manufacturing", "subindustry" : []},
@@ -846,32 +748,25 @@
          ]},
          {"code" : "334", "name" : "Computer and Electronic Product Manufacturing", "subindustry" : [
             {"code" : "3341", "name" : "Computer and Peripheral Equipment Manufacturing", "subindustry" : [
-               {"code" : "33411", "name" : "Computer and Peripheral Equipment Manufacturing", "subindustry" : [
-                  {"code" : "334111", "name" : "Electronic Computer Manufacturing", "subindustry" : []},
-                  {"code" : "334112", "name" : "Computer Storage Device Manufacturing", "subindustry" : []},
-                  {"code" : "334118", "name" : "Computer Terminal and Other Computer Peripheral Equipment Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "334111", "name" : "Electronic Computer Manufacturing", "subindustry" : []},
+               {"code" : "334112", "name" : "Computer Storage Device Manufacturing", "subindustry" : []},
+               {"code" : "334118", "name" : "Computer Terminal and Other Computer Peripheral Equipment Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3342", "name" : "Communications Equipment Manufacturing", "subindustry" : [
                {"code" : "33421", "name" : "Telephone Apparatus Manufacturing", "subindustry" : []},
                {"code" : "33422", "name" : "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing", "subindustry" : []},
                {"code" : "33429", "name" : "Other Communications Equipment Manufacturing", "subindustry" : []}
             ]},
-            {"code" : "3343", "name" : "Audio and Video Equipment Manufacturing", "subindustry" : [
-               {"code" : "33431", "name" : "Audio and Video Equipment Manufacturing", "subindustry" : []}
-            ]},
+            {"code" : "3343", "name" : "Audio and Video Equipment Manufacturing", "subindustry" : []},
             {"code" : "3344", "name" : "Semiconductor and Other Electronic Component Manufacturing", "subindustry" : [
-               {"code" : "33441", "name" : "Semiconductor and Other Electronic Component Manufacturing", "subindustry" : [
-                  {"code" : "334412", "name" : "Bare Printed Circuit Board Manufacturing", "subindustry" : []},
-                  {"code" : "334413", "name" : "Semiconductor and Related Device Manufacturing", "subindustry" : []},
-                  {"code" : "334416", "name" : "Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing", "subindustry" : []},
-                  {"code" : "334417", "name" : "Electronic Connector Manufacturing", "subindustry" : []},
-                  {"code" : "334418", "name" : "Printed Circuit Assembly (Electronic Assembly) Manufacturing", "subindustry" : []},
-                  {"code" : "334419", "name" : "Other Electronic Component Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "334412", "name" : "Bare Printed Circuit Board Manufacturing", "subindustry" : []},
+               {"code" : "334413", "name" : "Semiconductor and Related Device Manufacturing", "subindustry" : []},
+               {"code" : "334416", "name" : "Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing", "subindustry" : []},
+               {"code" : "334417", "name" : "Electronic Connector Manufacturing", "subindustry" : []},
+               {"code" : "334418", "name" : "Printed Circuit Assembly (Electronic Assembly) Manufacturing", "subindustry" : []},
+               {"code" : "334419", "name" : "Other Electronic Component Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3345", "name" : "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing", "subindustry" : [
-               {"code" : "33451", "name" : "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing", "subindustry" : []},
                {"code" : "33451", "name" : "Electromedical and Electrotherapeutic Apparatus Manufacturing", "subindustry" : [
                   {"code" : "334511", "name" : "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing", "subindustry" : []},
                   {"code" : "334512", "name" : "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use", "subindustry" : []},
@@ -880,14 +775,14 @@
                   {"code" : "334515", "name" : "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals", "subindustry" : []},
                   {"code" : "334516", "name" : "Analytical Laboratory Instrument Manufacturing", "subindustry" : []},
                   {"code" : "334517", "name" : "Irradiation Apparatus Manufacturing", "subindustry" : []},
-                  {"code" : "334519", "name" : "Other Measuring and Controlling Device Manufacturing", "subindustry" : []}
+                  {"code" : "334519", "name" : "Other Measuring and Controlling Device Manufacturing", "subindustry" : [
+                     {"code" : "3345191", "name" : "Wearable Technology Industry", "subindustry" : []}
+                  ]}
                ]}
             ]},
             {"code" : "3346", "name" : "Manufacturing and Reproducing Magnetic and Optical Media", "subindustry" : [
-               {"code" : "33461", "name" : "Manufacturing and Reproducing Magnetic and Optical Media", "subindustry" : [
-                  {"code" : "334613", "name" : "Blank Magnetic and Optical Recording Media Manufacturing", "subindustry" : []},
-                  {"code" : "334614", "name" : "Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing", "subindustry" : []}
-               ]}
+               {"code" : "334613", "name" : "Blank Magnetic and Optical Recording Media Manufacturing", "subindustry" : []},
+               {"code" : "334614", "name" : "Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing", "subindustry" : []}
             ]}
          ]},
          {"code" : "335", "name" : "Electrical Equipment, Appliance, and Component Manufacturing", "subindustry" : [
@@ -909,12 +804,10 @@
                ]}
             ]},
             {"code" : "3353", "name" : "Electrical Equipment Manufacturing", "subindustry" : [
-               {"code" : "33531", "name" : "Electrical Equipment Manufacturing", "subindustry" : [
-                  {"code" : "335311", "name" : "Power, Distribution, and Specialty Transformer Manufacturing", "subindustry" : []},
-                  {"code" : "335312", "name" : "Motor and Generator Manufacturing", "subindustry" : []},
-                  {"code" : "335313", "name" : "Switchgear and Switchboard Apparatus Manufacturing", "subindustry" : []},
-                  {"code" : "335314", "name" : "Relay and Industrial Control Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "335311", "name" : "Power, Distribution, and Specialty Transformer Manufacturing", "subindustry" : []},
+               {"code" : "335312", "name" : "Motor and Generator Manufacturing", "subindustry" : []},
+               {"code" : "335313", "name" : "Switchgear and Switchboard Apparatus Manufacturing", "subindustry" : []},
+               {"code" : "335314", "name" : "Relay and Industrial Control Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3359", "name" : "Other Electrical Equipment and Component Manufacturing", "subindustry" : [
                {"code" : "33591", "name" : "Battery Manufacturing", "subindustry" : [
@@ -926,8 +819,8 @@
                   {"code" : "335929", "name" : "Other Communication and Energy Wire Manufacturing", "subindustry" : []}
                ]},
                {"code" : "33593", "name" : "Wiring Device Manufacturing", "subindustry" : [
-                  {"code" : "335931", "name" : "CurrentCarrying Wiring Device Manufacturing", "subindustry" : []},
-                  {"code" : "335932", "name" : "NoncurrentCarrying Wiring Device Manufacturing", "subindustry" : []}
+                  {"code" : "335931", "name" : "Current-Carrying Wiring Device Manufacturing", "subindustry" : []},
+                  {"code" : "335932", "name" : "Noncurrent-Carrying Wiring Device Manufacturing", "subindustry" : []}
                ]},
                {"code" : "33599", "name" : "All Other Electrical Equipment and Component Manufacturing", "subindustry" : [
                   {"code" : "335991", "name" : "Carbon and Graphite Product Manufacturing", "subindustry" : []},
@@ -944,12 +837,10 @@
                {"code" : "33612", "name" : "Heavy Duty Truck Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3362", "name" : "Motor Vehicle Body and Trailer Manufacturing", "subindustry" : [
-               {"code" : "33621", "name" : "Motor Vehicle Body and Trailer Manufacturing", "subindustry" : [
-                  {"code" : "336211", "name" : "Motor Vehicle Body Manufacturing", "subindustry" : []},
-                  {"code" : "336212", "name" : "Truck Trailer Manufacturing", "subindustry" : []},
-                  {"code" : "336213", "name" : "Motor Home Manufacturing", "subindustry" : []},
-                  {"code" : "336214", "name" : "Travel Trailer and Camper Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "336211", "name" : "Motor Vehicle Body Manufacturing", "subindustry" : []},
+               {"code" : "336212", "name" : "Truck Trailer Manufacturing", "subindustry" : []},
+               {"code" : "336213", "name" : "Motor Home Manufacturing", "subindustry" : []},
+               {"code" : "336214", "name" : "Travel Trailer and Camper Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3363", "name" : "Motor Vehicle Parts Manufacturing", "subindustry" : [
                {"code" : "33631", "name" : "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing", "subindustry" : []},
@@ -962,30 +853,22 @@
                {"code" : "33639", "name" : "Other Motor Vehicle Parts Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3364", "name" : "Aerospace Product and Parts Manufacturing", "subindustry" : [
-               {"code" : "33641", "name" : "Aerospace Product and Parts Manufacturing", "subindustry" : [
-                  {"code" : "336411", "name" : "Aircraft Manufacturing", "subindustry" : []},
-                  {"code" : "336412", "name" : "Aircraft Engine and Engine Parts Manufacturing", "subindustry" : []},
-                  {"code" : "336413", "name" : "Other Aircraft Parts and Auxiliary Equipment Manufacturing", "subindustry" : []},
-                  {"code" : "336414", "name" : "Guided Missile and Space Vehicle Manufacturing", "subindustry" : []},
-                  {"code" : "336415", "name" : "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing", "subindustry" : []},
-                  {"code" : "336419", "name" : "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "336411", "name" : "Aircraft Manufacturing", "subindustry" : []},
+               {"code" : "336412", "name" : "Aircraft Engine and Engine Parts Manufacturing", "subindustry" : []},
+               {"code" : "336413", "name" : "Other Aircraft Parts and Auxiliary Equipment Manufacturing", "subindustry" : []},
+               {"code" : "336414", "name" : "Guided Missile and Space Vehicle Manufacturing", "subindustry" : []},
+               {"code" : "336415", "name" : "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing", "subindustry" : []},
+               {"code" : "336419", "name" : "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing", "subindustry" : []}
             ]},
-            {"code" : "3365", "name" : "Railroad Rolling Stock Manufacturing", "subindustry" : [
-               {"code" : "33651", "name" : "Railroad Rolling Stock Manufacturing", "subindustry" : []}
-            ]},
+            {"code" : "3365", "name" : "Railroad Rolling Stock Manufacturing", "subindustry" : []},
             {"code" : "3366", "name" : "Ship and Boat Building", "subindustry" : [
-               {"code" : "33661", "name" : "Ship and Boat Building", "subindustry" : [
-                  {"code" : "336611", "name" : "Ship Building and Repairing", "subindustry" : []},
-                  {"code" : "336612", "name" : "Boat Building", "subindustry" : []}
-               ]}
+               {"code" : "336611", "name" : "Ship Building and Repairing", "subindustry" : []},
+               {"code" : "336612", "name" : "Boat Building", "subindustry" : []}
             ]},
             {"code" : "3369", "name" : "Other Transportation Equipment Manufacturing", "subindustry" : [
-               {"code" : "33699", "name" : "Other Transportation Equipment Manufacturing", "subindustry" : [
-                  {"code" : "336991", "name" : "Motorcycle, Bicycle, and Parts Manufacturing", "subindustry" : []},
-                  {"code" : "336992", "name" : "Military Armored Vehicle, Tank, and Tank Component Manufacturing", "subindustry" : []},
-                  {"code" : "336999", "name" : "All Other Transportation Equipment Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "336991", "name" : "Motorcycle, Bicycle, and Parts Manufacturing", "subindustry" : []},
+               {"code" : "336992", "name" : "Military Armored Vehicle, Tank, and Tank Component Manufacturing", "subindustry" : []},
+               {"code" : "336999", "name" : "All Other Transportation Equipment Manufacturing", "subindustry" : []}
             ]}
          ]},
          {"code" : "337", "name" : "Furniture and Related Product Manufacturing", "subindustry" : [
@@ -1000,12 +883,10 @@
                ]}
             ]},
             {"code" : "3372", "name" : "Office Furniture (including Fixtures) Manufacturing", "subindustry" : [
-               {"code" : "33721", "name" : "Office Furniture (including Fixtures) Manufacturing", "subindustry" : [
-                  {"code" : "337211", "name" : "Wood Office Furniture Manufacturing", "subindustry" : []},
-                  {"code" : "337212", "name" : "Custom Architectural Woodwork and Millwork Manufacturing", "subindustry" : []},
-                  {"code" : "337214", "name" : "Office Furniture (except Wood) Manufacturing", "subindustry" : []},
-                  {"code" : "337215", "name" : "Showcase, Partition, Shelving, and Locker Manufacturing", "subindustry" : []}
-               ]}
+               {"code" : "337211", "name" : "Wood Office Furniture Manufacturing", "subindustry" : []},
+               {"code" : "337212", "name" : "Custom Architectural Woodwork and Millwork Manufacturing", "subindustry" : []},
+               {"code" : "337214", "name" : "Office Furniture (except Wood) Manufacturing", "subindustry" : []},
+               {"code" : "337215", "name" : "Showcase, Partition, Shelving, and Locker Manufacturing", "subindustry" : []}
             ]},
             {"code" : "3379", "name" : "Other Furniture Related Product Manufacturing", "subindustry" : [
                {"code" : "33791", "name" : "Mattress Manufacturing", "subindustry" : []},
@@ -1014,13 +895,11 @@
          ]},
          {"code" : "339", "name" : "Miscellaneous Manufacturing", "subindustry" : [
             {"code" : "3391", "name" : "Medical Equipment and Supplies Manufacturing", "subindustry" : [
-               {"code" : "33911", "name" : "Medical Equipment and Supplies Manufacturing", "subindustry" : [
-                  {"code" : "339112", "name" : "Surgical and Medical Instrument Manufacturing", "subindustry" : []},
-                  {"code" : "339113", "name" : "Surgical Appliance and Supplies Manufacturing", "subindustry" : []},
-                  {"code" : "339114", "name" : "Dental Equipment and Supplies Manufacturing", "subindustry" : []},
-                  {"code" : "339115", "name" : "Ophthalmic Goods Manufacturing", "subindustry" : []},
-                  {"code" : "339116", "name" : "Dental Laboratories", "subindustry" : []}
-               ]}
+               {"code" : "339112", "name" : "Surgical and Medical Instrument Manufacturing", "subindustry" : []},
+               {"code" : "339113", "name" : "Surgical Appliance and Supplies Manufacturing", "subindustry" : []},
+               {"code" : "339114", "name" : "Dental Equipment and Supplies Manufacturing", "subindustry" : []},
+               {"code" : "339115", "name" : "Ophthalmic Goods Manufacturing", "subindustry" : []},
+               {"code" : "339116", "name" : "Dental Laboratories", "subindustry" : []}
             ]},
             {"code" : "3399", "name" : "Other Miscellaneous Manufacturing", "subindustry" : [
                {"code" : "33991", "name" : "Jewelry and Silverware Manufacturing", "subindustry" : []},
@@ -1033,8 +912,7 @@
                   {"code" : "339992", "name" : "Musical Instrument Manufacturing", "subindustry" : []},
                   {"code" : "339993", "name" : "Fastener, Button, Needle, and Pin Manufacturing", "subindustry" : []},
                   {"code" : "339994", "name" : "Broom, Brush, and Mop Manufacturing", "subindustry" : []},
-                  {"code" : "339995", "name" : "Burial Casket Manufacturing", "subindustry" : []},
-                  {"code" : "339999", "name" : "All Other Miscellaneous Manufacturing", "subindustry" : []}
+                  {"code" : "339995", "name" : "Burial Casket Manufacturing", "subindustry" : []}
                ]}
             ]}
          ]}
@@ -1078,7 +956,7 @@
             {"code" : "4237", "name" : "Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers", "subindustry" : [
                {"code" : "42371", "name" : "Hardware Merchant Wholesalers", "subindustry" : []},
                {"code" : "42372", "name" : "Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers", "subindustry" : []},
-               {"code" : "42373", "name" : "Warm Air Heating and AirConditioning Equipment and Supplies Merchant Wholesalers", "subindustry" : []},
+               {"code" : "42373", "name" : "Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers", "subindustry" : []},
                {"code" : "42374", "name" : "Refrigeration Equipment and Supplies Merchant Wholesalers", "subindustry" : []}
             ]},
             {"code" : "4238", "name" : "Machinery, Equipment, and Supplies Merchant Wholesalers", "subindustry" : [
@@ -1103,9 +981,7 @@
                {"code" : "42412", "name" : "Stationery and Office Supplies Merchant Wholesalers", "subindustry" : []},
                {"code" : "42413", "name" : "Industrial and Personal Service Paper Merchant Wholesalers", "subindustry" : []}
             ]},
-            {"code" : "4242", "name" : "Drugs and Druggists' Sundries Merchant Wholesalers", "subindustry" : [
-               {"code" : "42421", "name" : "Drugs and Druggists' Sundries Merchant Wholesalers", "subindustry" : []}
-            ]},
+            {"code" : "4242", "name" : "Drugs and Druggists' Sundries Merchant Wholesalers", "subindustry" : []},
             {"code" : "4243", "name" : "Apparel, Piece Goods, and Notions Merchant Wholesalers", "subindustry" : [
                {"code" : "42431", "name" : "Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers", "subindustry" : []},
                {"code" : "42432", "name" : "Men's and Boys' Clothing and Furnishings Merchant Wholesalers", "subindustry" : []},
@@ -1150,11 +1026,9 @@
             ]}
          ]},
          {"code" : "425", "name" : "Wholesale Electronic Markets and Agents and Brokers", "subindustry" : [
-            {"code" : "4251", "name" : "Wholesale Electronic Markets and Agents and Brokers", "subindustry" : [
-               {"code" : "42511", "name" : "Business to Business Electronic Markets", "subindustry" : []},
-               {"code" : "42512", "name" : "Wholesale Trade Agents and Brokers", "subindustry" : []}
-            ]},
-            {"code" : "4445", "name" : "Retail Trade", "subindustry" : []}
+            {"code" : "42511", "name" : "Business to Business Electronic Markets", "subindustry" : []},
+            {"code" : "42512", "name" : "Wholesale Trade Agents and Brokers", "subindustry" : []},
+            {"code" : "44-45", "name" : "Retail Trade", "subindustry" : []}
          ]},
          {"code" : "441", "name" : "Motor Vehicle and Parts Dealers", "subindustry" : [
             {"code" : "4411", "name" : "Automobile Dealers", "subindustry" : [
@@ -1174,9 +1048,7 @@
             ]}
          ]},
          {"code" : "442", "name" : "Furniture and Home Furnishings Stores", "subindustry" : [
-            {"code" : "4421", "name" : "Furniture Stores", "subindustry" : [
-               {"code" : "44211", "name" : "Furniture Stores", "subindustry" : []}
-            ]},
+            {"code" : "4421", "name" : "Furniture Stores", "subindustry" : []},
             {"code" : "4422", "name" : "Home Furnishings Stores", "subindustry" : [
                {"code" : "44221", "name" : "Floor Covering Stores", "subindustry" : []},
                {"code" : "44229", "name" : "Other Home Furnishings Stores", "subindustry" : [
@@ -1186,12 +1058,8 @@
             ]}
          ]},
          {"code" : "443", "name" : "Electronics and Appliance Stores", "subindustry" : [
-            {"code" : "4431", "name" : "Electronics and Appliance Stores", "subindustry" : [
-               {"code" : "44314", "name" : "Electronics and Appliance Stores", "subindustry" : [
-                  {"code" : "443141", "name" : "Household Appliance Stores", "subindustry" : []},
-                  {"code" : "443142", "name" : "Electronics Stores", "subindustry" : []}
-               ]}
-            ]}
+            {"code" : "443141", "name" : "Household Appliance Stores", "subindustry" : []},
+            {"code" : "443142", "name" : "Electronics Stores", "subindustry" : []}
          ]},
          {"code" : "444", "name" : "Building Material and Garden Equipment and Supplies Dealers", "subindustry" : [
             {"code" : "4441", "name" : "Building Material and Supplies Dealers", "subindustry" : [
@@ -1220,26 +1088,20 @@
                   {"code" : "445299", "name" : "All Other Specialty Food Stores", "subindustry" : []}
                ]}
             ]},
-            {"code" : "4453", "name" : "Beer, Wine, and Liquor Stores", "subindustry" : [
-               {"code" : "44531", "name" : "Beer, Wine, and Liquor Stores", "subindustry" : []}
-            ]}
+            {"code" : "4453", "name" : "Beer, Wine, and Liquor Stores", "subindustry" : []}
          ]},
          {"code" : "446", "name" : "Health and Personal Care Stores", "subindustry" : [
-            {"code" : "4461", "name" : "Health and Personal Care Stores", "subindustry" : [
-               {"code" : "44611", "name" : "Pharmacies and Drug Stores", "subindustry" : []},
-               {"code" : "44612", "name" : "Cosmetics, Beauty Supplies, and Perfume Stores", "subindustry" : []},
-               {"code" : "44613", "name" : "Optical Goods Stores", "subindustry" : []},
-               {"code" : "44619", "name" : "Other Health and Personal Care Stores", "subindustry" : [
-                  {"code" : "446191", "name" : "Food (Health) Supplement Stores", "subindustry" : []},
-                  {"code" : "446199", "name" : "All Other Health and Personal Care Stores", "subindustry" : []}
-               ]}
+            {"code" : "44611", "name" : "Pharmacies and Drug Stores", "subindustry" : []},
+            {"code" : "44612", "name" : "Cosmetics, Beauty Supplies, and Perfume Stores", "subindustry" : []},
+            {"code" : "44613", "name" : "Optical Goods Stores", "subindustry" : []},
+            {"code" : "44619", "name" : "Other Health and Personal Care Stores", "subindustry" : [
+               {"code" : "446191", "name" : "Food (Health) Supplement Stores", "subindustry" : []},
+               {"code" : "446199", "name" : "All Other Health and Personal Care Stores", "subindustry" : []}
             ]}
          ]},
          {"code" : "447", "name" : "Gasoline Stations", "subindustry" : [
-            {"code" : "4471", "name" : "Gasoline Stations", "subindustry" : [
-               {"code" : "44711", "name" : "Gasoline Stations with Convenience Stores", "subindustry" : []},
-               {"code" : "44719", "name" : "Other Gasoline Stations", "subindustry" : []}
-            ]}
+            {"code" : "44711", "name" : "Gasoline Stations with Convenience Stores", "subindustry" : []},
+            {"code" : "44719", "name" : "Other Gasoline Stations", "subindustry" : []}
          ]},
          {"code" : "448", "name" : "Clothing and Clothing Accessories Stores", "subindustry" : [
             {"code" : "4481", "name" : "Clothing Stores", "subindustry" : [
@@ -1250,9 +1112,7 @@
                {"code" : "44815", "name" : "Clothing Accessories Stores", "subindustry" : []},
                {"code" : "44819", "name" : "Other Clothing Stores", "subindustry" : []}
             ]},
-            {"code" : "4482", "name" : "Shoe Stores", "subindustry" : [
-               {"code" : "44821", "name" : "Shoe Stores", "subindustry" : []}
-            ]},
+            {"code" : "4482", "name" : "Shoe Stores", "subindustry" : []},
             {"code" : "4483", "name" : "Jewelry, Luggage, and Leather Goods Stores", "subindustry" : [
                {"code" : "44831", "name" : "Jewelry Stores", "subindustry" : []},
                {"code" : "44832", "name" : "Luggage and Leather Goods Stores", "subindustry" : []}
@@ -1266,18 +1126,14 @@
                {"code" : "45114", "name" : "Musical Instrument and Supplies Stores", "subindustry" : []}
             ]},
             {"code" : "4512", "name" : "Book Stores and News Dealers", "subindustry" : [
-               {"code" : "45121", "name" : "Book Stores and News Dealers", "subindustry" : [
-                  {"code" : "451211", "name" : "Book Stores", "subindustry" : []},
-                  {"code" : "451212", "name" : "News Dealers and Newsstands", "subindustry" : []}
-               ]}
+               {"code" : "451211", "name" : "Book Stores", "subindustry" : []},
+               {"code" : "451212", "name" : "News Dealers and Newsstands", "subindustry" : []}
             ]}
          ]},
          {"code" : "452", "name" : "General Merchandise Stores", "subindustry" : [
             {"code" : "4521", "name" : "Department Stores", "subindustry" : [
-               {"code" : "45211", "name" : "Department Stores", "subindustry" : [
-                  {"code" : "452111", "name" : "Department Stores (except Discount Department Stores)", "subindustry" : []},
-                  {"code" : "452112", "name" : "Discount Department Stores", "subindustry" : []}
-               ]}
+               {"code" : "452111", "name" : "Department Stores (except Discount Department Stores)", "subindustry" : []},
+               {"code" : "452112", "name" : "Discount Department Stores", "subindustry" : []}
             ]},
             {"code" : "4529", "name" : "Other General Merchandise Stores", "subindustry" : [
                {"code" : "45291", "name" : "Warehouse Clubs and Supercenters", "subindustry" : []},
@@ -1285,16 +1141,12 @@
             ]}
          ]},
          {"code" : "453", "name" : "Miscellaneous Store Retailers", "subindustry" : [
-            {"code" : "4531", "name" : "Florists", "subindustry" : [
-               {"code" : "45311", "name" : "Florists", "subindustry" : []}
-            ]},
+            {"code" : "4531", "name" : "Florists", "subindustry" : []},
             {"code" : "4532", "name" : "Office Supplies, Stationery, and Gift Stores", "subindustry" : [
                {"code" : "45321", "name" : "Office Supplies and Stationery Stores", "subindustry" : []},
                {"code" : "45322", "name" : "Gift, Novelty, and Souvenir Stores", "subindustry" : []}
             ]},
-            {"code" : "4533", "name" : "Used Merchandise Stores", "subindustry" : [
-               {"code" : "45331", "name" : "Used Merchandise Stores", "subindustry" : []}
-            ]},
+            {"code" : "4533", "name" : "Used Merchandise Stores", "subindustry" : []},
             {"code" : "4539", "name" : "Other Miscellaneous Store Retailers", "subindustry" : [
                {"code" : "45391", "name" : "Pet and Pet Supplies Stores", "subindustry" : []},
                {"code" : "45392", "name" : "Art Dealers", "subindustry" : []},
@@ -1306,126 +1158,90 @@
             ]}
          ]},
          {"code" : "454", "name" : "Nonstore Retailers", "subindustry" : [
-            {"code" : "4541", "name" : "Electronic Shopping and MailOrder Houses", "subindustry" : [
-               {"code" : "45411", "name" : "Electronic Shopping and MailOrder Houses", "subindustry" : [
-                  {"code" : "454111", "name" : "Electronic Shopping", "subindustry" : []},
-                  {"code" : "454112", "name" : "Electronic Auctions", "subindustry" : []},
-                  {"code" : "454113", "name" : "MailOrder Houses", "subindustry" : []}
-               ]}
+            {"code" : "4541", "name" : "Electronic Shopping and Mail-Order Houses", "subindustry" : [
+               {"code" : "454111", "name" : "Electronic Shopping", "subindustry" : []},
+               {"code" : "454112", "name" : "Electronic Auctions", "subindustry" : []},
+               {"code" : "454113", "name" : "Mail-Order Houses", "subindustry" : []}
             ]},
-            {"code" : "4542", "name" : "Vending Machine Operators", "subindustry" : [
-               {"code" : "45421", "name" : "Vending Machine Operators", "subindustry" : []}
-            ]},
+            {"code" : "4542", "name" : "Vending Machine Operators", "subindustry" : []},
             {"code" : "4543", "name" : "Direct Selling Establishments", "subindustry" : [
                {"code" : "45431", "name" : "Fuel Dealers", "subindustry" : []},
-               {"code" : "45439", "name" : "Other Direct Selling Establishments", "subindustry" : []}
-            ]},
-            {"code" : "4849", "name" : "Transportation and Warehousing", "subindustry" : []}
+               {"code" : "45439", "name" : "Other Direct Selling Establishments", "subindustry" : []},
+               {"code" : "48-49", "name" : "Transportation and Warehousing", "subindustry" : []}
+            ]}
          ]},
          {"code" : "481", "name" : "Air Transportation", "subindustry" : [
             {"code" : "4811", "name" : "Scheduled Air Transportation", "subindustry" : [
-               {"code" : "48111", "name" : "Scheduled Air Transportation", "subindustry" : [
-                  {"code" : "481111", "name" : "Scheduled Passenger Air Transportation", "subindustry" : []},
-                  {"code" : "481112", "name" : "Scheduled Freight Air Transportation", "subindustry" : []}
-               ]}
+               {"code" : "481111", "name" : "Scheduled Passenger Air Transportation", "subindustry" : []},
+               {"code" : "481112", "name" : "Scheduled Freight Air Transportation", "subindustry" : []}
             ]},
             {"code" : "4812", "name" : "Nonscheduled Air Transportation", "subindustry" : [
-               {"code" : "48121", "name" : "Nonscheduled Air Transportation", "subindustry" : [
-                  {"code" : "481211", "name" : "Nonscheduled Chartered Passenger Air Transportation", "subindustry" : []},
-                  {"code" : "481212", "name" : "Nonscheduled Chartered Freight Air Transportation", "subindustry" : []},
-                  {"code" : "481219", "name" : "Other Nonscheduled Air Transportation", "subindustry" : []}
-               ]}
+               {"code" : "481211", "name" : "Nonscheduled Chartered Passenger Air Transportation", "subindustry" : []},
+               {"code" : "481212", "name" : "Nonscheduled Chartered Freight Air Transportation", "subindustry" : []},
+               {"code" : "481219", "name" : "Other Nonscheduled Air Transportation", "subindustry" : []}
             ]}
          ]},
          {"code" : "482", "name" : "Rail Transportation", "subindustry" : [
-            {"code" : "4821", "name" : "Rail Transportation", "subindustry" : [
-               {"code" : "48211", "name" : "Rail Transportation", "subindustry" : [
-                  {"code" : "482111", "name" : "LineHaul Railroads", "subindustry" : []},
-                  {"code" : "482112", "name" : "Short Line Railroads", "subindustry" : []}
-               ]}
-            ]}
+            {"code" : "482111", "name" : "Line-Haul Railroads", "subindustry" : []},
+            {"code" : "482112", "name" : "Short Line Railroads", "subindustry" : []}
          ]},
          {"code" : "483", "name" : "Water Transportation", "subindustry" : [
             {"code" : "4831", "name" : "Deep Sea, Coastal, and Great Lakes Water Transportation", "subindustry" : [
-               {"code" : "48311", "name" : "Deep Sea, Coastal, and Great Lakes Water Transportation", "subindustry" : [
-                  {"code" : "483111", "name" : "Deep Sea Freight Transportation", "subindustry" : []},
-                  {"code" : "483112", "name" : "Deep Sea Passenger Transportation", "subindustry" : []},
-                  {"code" : "483113", "name" : "Coastal and Great Lakes Freight Transportation", "subindustry" : []},
-                  {"code" : "483114", "name" : "Coastal and Great Lakes Passenger Transportation", "subindustry" : []}
-               ]}
+               {"code" : "483111", "name" : "Deep Sea Freight Transportation", "subindustry" : []},
+               {"code" : "483112", "name" : "Deep Sea Passenger Transportation", "subindustry" : []},
+               {"code" : "483113", "name" : "Coastal and Great Lakes Freight Transportation", "subindustry" : []},
+               {"code" : "483114", "name" : "Coastal and Great Lakes Passenger Transportation", "subindustry" : []}
             ]},
             {"code" : "4832", "name" : "Inland Water Transportation", "subindustry" : [
-               {"code" : "48321", "name" : "Inland Water Transportation", "subindustry" : [
-                  {"code" : "483211", "name" : "Inland Water Freight Transportation", "subindustry" : []},
-                  {"code" : "483212", "name" : "Inland Water Passenger Transportation", "subindustry" : []}
-               ]}
+               {"code" : "483211", "name" : "Inland Water Freight Transportation", "subindustry" : []},
+               {"code" : "483212", "name" : "Inland Water Passenger Transportation", "subindustry" : []}
             ]}
          ]},
          {"code" : "484", "name" : "Truck Transportation", "subindustry" : [
             {"code" : "4841", "name" : "General Freight Trucking", "subindustry" : [
                {"code" : "48411", "name" : "General Freight Trucking, Local", "subindustry" : []},
-               {"code" : "48412", "name" : "General Freight Trucking, LongDistance", "subindustry" : [
-                  {"code" : "484121", "name" : "General Freight Trucking, LongDistance, Truckload", "subindustry" : []},
-                  {"code" : "484122", "name" : "General Freight Trucking, LongDistance, Less Than Truckload", "subindustry" : []}
+               {"code" : "48412", "name" : "General Freight Trucking, Long-Distance", "subindustry" : [
+                  {"code" : "484121", "name" : "General Freight Trucking, Long-Distance, Truckload", "subindustry" : []},
+                  {"code" : "484122", "name" : "General Freight Trucking, Long-Distance, Less Than Truckload", "subindustry" : []}
                ]}
             ]},
             {"code" : "4842", "name" : "Specialized Freight Trucking", "subindustry" : [
                {"code" : "48421", "name" : "Used Household and Office Goods Moving", "subindustry" : []},
                {"code" : "48422", "name" : "Specialized Freight (except Used Goods) Trucking, Local", "subindustry" : []},
-               {"code" : "48423", "name" : "Specialized Freight (except Used Goods) Trucking, LongDistance", "subindustry" : []}
+               {"code" : "48423", "name" : "Specialized Freight (except Used Goods) Trucking, Long-Distance", "subindustry" : []}
             ]}
          ]},
          {"code" : "485", "name" : "Transit and Ground Passenger Transportation", "subindustry" : [
             {"code" : "4851", "name" : "Urban Transit Systems", "subindustry" : [
-               {"code" : "48511", "name" : "Urban Transit Systems", "subindustry" : [
-                  {"code" : "485111", "name" : "Mixed Mode Transit Systems", "subindustry" : []},
-                  {"code" : "485112", "name" : "Commuter Rail Systems", "subindustry" : []},
-                  {"code" : "485113", "name" : "Bus and Other Motor Vehicle Transit Systems", "subindustry" : []},
-                  {"code" : "485119", "name" : "Other Urban Transit Systems", "subindustry" : []}
-               ]}
+               {"code" : "485111", "name" : "Mixed Mode Transit Systems", "subindustry" : []},
+               {"code" : "485112", "name" : "Commuter Rail Systems", "subindustry" : []},
+               {"code" : "485113", "name" : "Bus and Other Motor Vehicle Transit Systems", "subindustry" : []},
+               {"code" : "485119", "name" : "Other Urban Transit Systems", "subindustry" : []}
             ]},
-            {"code" : "4852", "name" : "Interurban and Rural Bus Transportation", "subindustry" : [
-               {"code" : "48521", "name" : "Interurban and Rural Bus Transportation", "subindustry" : []}
-            ]},
+            {"code" : "4852", "name" : "Interurban and Rural Bus Transportation", "subindustry" : []},
             {"code" : "4853", "name" : "Taxi and Limousine Service", "subindustry" : [
                {"code" : "48531", "name" : "Taxi Service", "subindustry" : []},
                {"code" : "48532", "name" : "Limousine Service", "subindustry" : []}
             ]},
-            {"code" : "4854", "name" : "School and Employee Bus Transportation", "subindustry" : [
-               {"code" : "48541", "name" : "School and Employee Bus Transportation", "subindustry" : []}
-            ]},
-            {"code" : "4855", "name" : "Charter Bus Industry", "subindustry" : [
-               {"code" : "48551", "name" : "Charter Bus Industry", "subindustry" : []}
-            ]},
+            {"code" : "4854", "name" : "School and Employee Bus Transportation", "subindustry" : []},
+            {"code" : "4855", "name" : "Charter Bus Industry", "subindustry" : []},
             {"code" : "4859", "name" : "Other Transit and Ground Passenger Transportation", "subindustry" : [
-               {"code" : "48599", "name" : "Other Transit and Ground Passenger Transportation", "subindustry" : [
-                  {"code" : "485991", "name" : "Special Needs Transportation", "subindustry" : []},
-                  {"code" : "485999", "name" : "All Other Transit and Ground Passenger Transportation", "subindustry" : []}
-               ]}
+               {"code" : "485991", "name" : "Special Needs Transportation", "subindustry" : []},
+               {"code" : "485999", "name" : "All Other Transit and Ground Passenger Transportation", "subindustry" : []}
             ]}
          ]},
          {"code" : "486", "name" : "Pipeline Transportation", "subindustry" : [
-            {"code" : "4861", "name" : "Pipeline Transportation of Crude Oil", "subindustry" : [
-               {"code" : "48611", "name" : "Pipeline Transportation of Crude Oil", "subindustry" : []}
-            ]},
-            {"code" : "4862", "name" : "Pipeline Transportation of Natural Gas", "subindustry" : [
-               {"code" : "48621", "name" : "Pipeline Transportation of Natural Gas", "subindustry" : []}
-            ]},
+            {"code" : "4861", "name" : "Pipeline Transportation of Crude Oil", "subindustry" : []},
+            {"code" : "4862", "name" : "Pipeline Transportation of Natural Gas", "subindustry" : []},
             {"code" : "4869", "name" : "Other Pipeline Transportation", "subindustry" : [
                {"code" : "48691", "name" : "Pipeline Transportation of Refined Petroleum Products", "subindustry" : []},
                {"code" : "48699", "name" : "All Other Pipeline Transportation", "subindustry" : []}
             ]}
          ]},
          {"code" : "487", "name" : "Scenic and Sightseeing Transportation", "subindustry" : [
-            {"code" : "4871", "name" : "Scenic and Sightseeing Transportation, Land", "subindustry" : [
-               {"code" : "48711", "name" : "Scenic and Sightseeing Transportation, Land", "subindustry" : []}
-            ]},
-            {"code" : "4872", "name" : "Scenic and Sightseeing Transportation, Water", "subindustry" : [
-               {"code" : "48721", "name" : "Scenic and Sightseeing Transportation, Water", "subindustry" : []}
-            ]},
-            {"code" : "4879", "name" : "Scenic and Sightseeing Transportation, Other", "subindustry" : [
-               {"code" : "48799", "name" : "Scenic and Sightseeing Transportation, Other", "subindustry" : []}
-            ]}
+            {"code" : "4871", "name" : "Scenic and Sightseeing Transportation, Land", "subindustry" : []},
+            {"code" : "4872", "name" : "Scenic and Sightseeing Transportation, Water", "subindustry" : []},
+            {"code" : "4879", "name" : "Scenic and Sightseeing Transportation, Other", "subindustry" : []}
          ]},
          {"code" : "488", "name" : "Support Activities for Transportation", "subindustry" : [
             {"code" : "4881", "name" : "Support Activities for Air Transportation", "subindustry" : [
@@ -1435,9 +1251,7 @@
                ]},
                {"code" : "48819", "name" : "Other Support Activities for Air Transportation", "subindustry" : []}
             ]},
-            {"code" : "4882", "name" : "Support Activities for Rail Transportation", "subindustry" : [
-               {"code" : "48821", "name" : "Support Activities for Rail Transportation", "subindustry" : []}
-            ]},
+            {"code" : "4882", "name" : "Support Activities for Rail Transportation", "subindustry" : []},
             {"code" : "4883", "name" : "Support Activities for Water Transportation", "subindustry" : [
                {"code" : "48831", "name" : "Port and Harbor Operations", "subindustry" : []},
                {"code" : "48832", "name" : "Marine Cargo Handling", "subindustry" : []},
@@ -1448,36 +1262,22 @@
                {"code" : "48841", "name" : "Motor Vehicle Towing", "subindustry" : []},
                {"code" : "48849", "name" : "Other Support Activities for Road Transportation", "subindustry" : []}
             ]},
-            {"code" : "4885", "name" : "Freight Transportation Arrangement", "subindustry" : [
-               {"code" : "48851", "name" : "Freight Transportation Arrangement", "subindustry" : []}
-            ]},
+            {"code" : "4885", "name" : "Freight Transportation Arrangement", "subindustry" : []},
             {"code" : "4889", "name" : "Other Support Activities for Transportation", "subindustry" : [
-               {"code" : "48899", "name" : "Other Support Activities for Transportation", "subindustry" : [
-                  {"code" : "488991", "name" : "Packing and Crating", "subindustry" : []},
-                  {"code" : "488999", "name" : "All Other Support Activities for Transportation", "subindustry" : []}
-               ]}
+               {"code" : "488991", "name" : "Packing and Crating", "subindustry" : []},
+               {"code" : "488999", "name" : "All Other Support Activities for Transportation", "subindustry" : []}
             ]}
          ]},
-         {"code" : "491", "name" : "Postal Service", "subindustry" : [
-            {"code" : "4911", "name" : "Postal Service", "subindustry" : [
-               {"code" : "49111", "name" : "Postal Service", "subindustry" : []}
-            ]}
-         ]},
+         {"code" : "491", "name" : "Postal Service", "subindustry" : []},
          {"code" : "492", "name" : "Couriers and Messengers", "subindustry" : [
-            {"code" : "4921", "name" : "Couriers and Express Delivery Services", "subindustry" : [
-               {"code" : "49211", "name" : "Couriers and Express Delivery Services", "subindustry" : []}
-            ]},
-            {"code" : "4922", "name" : "Local Messengers and Local Delivery", "subindustry" : [
-               {"code" : "49221", "name" : "Local Messengers and Local Delivery", "subindustry" : []}
-            ]}
+            {"code" : "4921", "name" : "Couriers and Express Delivery Services", "subindustry" : []},
+            {"code" : "4922", "name" : "Local Messengers and Local Delivery", "subindustry" : []}
          ]},
          {"code" : "493", "name" : "Warehousing and Storage", "subindustry" : [
-            {"code" : "4931", "name" : "Warehousing and Storage", "subindustry" : [
-               {"code" : "49311", "name" : "General Warehousing and Storage", "subindustry" : []},
-               {"code" : "49312", "name" : "Refrigerated Warehousing and Storage", "subindustry" : []},
-               {"code" : "49313", "name" : "Farm Product Warehousing and Storage", "subindustry" : []},
-               {"code" : "49319", "name" : "Other Warehousing and Storage", "subindustry" : []}
-            ]}
+            {"code" : "49311", "name" : "General Warehousing and Storage", "subindustry" : []},
+            {"code" : "49312", "name" : "Refrigerated Warehousing and Storage", "subindustry" : []},
+            {"code" : "49313", "name" : "Farm Product Warehousing and Storage", "subindustry" : []},
+            {"code" : "49319", "name" : "Other Warehousing and Storage", "subindustry" : []}
          ]}
       ]},
       {"code" : "51", "name" : "Information", "subindustry" : [
@@ -1492,17 +1292,15 @@
                   {"code" : "511199", "name" : "All Other Publishers", "subindustry" : []}
                ]}
             ]},
-            {"code" : "5112", "name" : "Software Publishers", "subindustry" : [
-               {"code" : "51121", "name" : "Software Publishers", "subindustry" : []}
-            ]}
+            {"code" : "5112", "name" : "Software Publishers", "subindustry" : []}
          ]},
          {"code" : "512", "name" : "Motion Picture and Sound Recording Industries", "subindustry" : [
             {"code" : "5121", "name" : "Motion Picture and Video Industries", "subindustry" : [
                {"code" : "51211", "name" : "Motion Picture and Video Production", "subindustry" : []},
                {"code" : "51212", "name" : "Motion Picture and Video Distribution", "subindustry" : []},
                {"code" : "51213", "name" : "Motion Picture and Video Exhibition", "subindustry" : [
-                  {"code" : "512131", "name" : "Motion Picture Theaters (except DriveIns)", "subindustry" : []},
-                  {"code" : "512132", "name" : "DriveIn Motion Picture Theaters", "subindustry" : []}
+                  {"code" : "512131", "name" : "Motion Picture Theaters (except Drive-Ins)", "subindustry" : []},
+                  {"code" : "512132", "name" : "Drive-In Motion Picture Theaters", "subindustry" : []}
                ]},
                {"code" : "51219", "name" : "Postproduction Services and Other Motion Picture and Video Industries", "subindustry" : [
                   {"code" : "512191", "name" : "Teleproduction and Other Postproduction Services", "subindustry" : []},
@@ -1525,47 +1323,27 @@
                ]},
                {"code" : "51512", "name" : "Television Broadcasting", "subindustry" : []}
             ]},
-            {"code" : "5152", "name" : "Cable and Other Subscription Programming", "subindustry" : [
-               {"code" : "51521", "name" : "Cable and Other Subscription Programming", "subindustry" : []}
-            ]}
+            {"code" : "5152", "name" : "Cable and Other Subscription Programming", "subindustry" : []}
          ]},
          {"code" : "517", "name" : "Telecommunications", "subindustry" : [
-            {"code" : "5171", "name" : "Wired Telecommunications Carriers", "subindustry" : [
-               {"code" : "51711", "name" : "Wired Telecommunications Carriers", "subindustry" : []}
-            ]},
-            {"code" : "5172", "name" : "Wireless Telecommunications Carriers (except Satellite)", "subindustry" : [
-               {"code" : "51721", "name" : "Wireless Telecommunications Carriers (except Satellite)", "subindustry" : []}
-            ]},
-            {"code" : "5174", "name" : "Satellite Telecommunications", "subindustry" : [
-               {"code" : "51741", "name" : "Satellite Telecommunications", "subindustry" : []}
-            ]},
+            {"code" : "5171", "name" : "Wired Telecommunications Carriers", "subindustry" : []},
+            {"code" : "5172", "name" : "Wireless Telecommunications Carriers (except Satellite)", "subindustry" : []},
+            {"code" : "5174", "name" : "Satellite Telecommunications", "subindustry" : []},
             {"code" : "5179", "name" : "Other Telecommunications", "subindustry" : [
-               {"code" : "51791", "name" : "Other Telecommunications", "subindustry" : [
-                  {"code" : "517911", "name" : "Telecommunications Resellers", "subindustry" : []},
-                  {"code" : "517919", "name" : "All Other Telecommunications", "subindustry" : []}
-               ]}
+               {"code" : "517911", "name" : "Telecommunications Resellers", "subindustry" : []},
+               {"code" : "517919", "name" : "All Other Telecommunications", "subindustry" : []}
             ]}
          ]},
-         {"code" : "518", "name" : "Data Processing, Hosting, and Related Services", "subindustry" : [
-            {"code" : "5182", "name" : "Data Processing, Hosting, and Related Services", "subindustry" : [
-               {"code" : "51821", "name" : "Data Processing, Hosting, and Related Services", "subindustry" : []}
-            ]}
-         ]},
+         {"code" : "518", "name" : "Data Processing, Hosting, and Related Services", "subindustry" : []},
          {"code" : "519", "name" : "Other Information Services", "subindustry" : [
-            {"code" : "5191", "name" : "Other Information Services", "subindustry" : [
-               {"code" : "51911", "name" : "News Syndicates", "subindustry" : []},
-               {"code" : "51912", "name" : "Libraries and Archives", "subindustry" : []},
-               {"code" : "51913", "name" : "Internet Publishing and Broadcasting and Web Search Portals", "subindustry" : []},
-               {"code" : "51919", "name" : "All Other Information Services", "subindustry" : []}
-            ]}
+            {"code" : "51911", "name" : "News Syndicates", "subindustry" : []},
+            {"code" : "51912", "name" : "Libraries and Archives", "subindustry" : []},
+            {"code" : "51913", "name" : "Internet Publishing and Broadcasting and Web Search Portals", "subindustry" : []},
+            {"code" : "51919", "name" : "All Other Information Services", "subindustry" : []}
          ]}
       ]},
       {"code" : "52", "name" : "Finance and Insurance", "subindustry" : [
-         {"code" : "521", "name" : "Monetary AuthoritiesCentral Bank", "subindustry" : [
-            {"code" : "5211", "name" : "Monetary AuthoritiesCentral Bank", "subindustry" : [
-               {"code" : "52111", "name" : "Monetary AuthoritiesCentral Bank", "subindustry" : []}
-            ]}
-         ]},
+         {"code" : "521", "name" : "Monetary Authorities-Central Bank", "subindustry" : []},
          {"code" : "522", "name" : "Credit Intermediation and Related Activities", "subindustry" : [
             {"code" : "5221", "name" : "Depository Credit Intermediation", "subindustry" : [
                {"code" : "52211", "name" : "Commercial Banking", "subindustry" : []},
@@ -1597,9 +1375,7 @@
                {"code" : "52313", "name" : "Commodity Contracts Dealing", "subindustry" : []},
                {"code" : "52314", "name" : "Commodity Contracts Brokerage", "subindustry" : []}
             ]},
-            {"code" : "5232", "name" : "Securities and Commodity Exchanges", "subindustry" : [
-               {"code" : "52321", "name" : "Securities and Commodity Exchanges", "subindustry" : []}
-            ]},
+            {"code" : "5232", "name" : "Securities and Commodity Exchanges", "subindustry" : []},
             {"code" : "5239", "name" : "Other Financial Investment Activities", "subindustry" : [
                {"code" : "52391", "name" : "Miscellaneous Intermediation", "subindustry" : []},
                {"code" : "52392", "name" : "Portfolio Management", "subindustry" : []},
@@ -1639,7 +1415,7 @@
                {"code" : "52519", "name" : "Other Insurance Funds", "subindustry" : []}
             ]},
             {"code" : "5259", "name" : "Other Investment Pools and Funds", "subindustry" : [
-               {"code" : "52591", "name" : "OpenEnd Investment Funds", "subindustry" : []},
+               {"code" : "52591", "name" : "Open-End Investment Funds", "subindustry" : []},
                {"code" : "52592", "name" : "Trusts, Estates, and Agency Accounts", "subindustry" : []},
                {"code" : "52599", "name" : "Other Financial Vehicles", "subindustry" : []}
             ]}
@@ -1650,12 +1426,10 @@
             {"code" : "5311", "name" : "Lessors of Real Estate", "subindustry" : [
                {"code" : "53111", "name" : "Lessors of Residential Buildings and Dwellings", "subindustry" : []},
                {"code" : "53112", "name" : "Lessors of Nonresidential Buildings (except Miniwarehouses)", "subindustry" : []},
-               {"code" : "53113", "name" : "Lessors of Miniwarehouses and SelfStorage Units", "subindustry" : []},
+               {"code" : "53113", "name" : "Lessors of Miniwarehouses and Self-Storage Units", "subindustry" : []},
                {"code" : "53119", "name" : "Lessors of Other Real Estate Property", "subindustry" : []}
             ]},
-            {"code" : "5312", "name" : "Offices of Real Estate Agents and Brokers", "subindustry" : [
-               {"code" : "53121", "name" : "Offices of Real Estate Agents and Brokers", "subindustry" : []}
-            ]},
+            {"code" : "5312", "name" : "Offices of Real Estate Agents and Brokers", "subindustry" : []},
             {"code" : "5313", "name" : "Activities Related to Real Estate", "subindustry" : [
                {"code" : "53131", "name" : "Real Estate Property Managers", "subindustry" : [
                   {"code" : "531311", "name" : "Residential Property Managers", "subindustry" : []},
@@ -1683,9 +1457,7 @@
                   {"code" : "532299", "name" : "All Other Consumer Goods Rental", "subindustry" : []}
                ]}
             ]},
-            {"code" : "5323", "name" : "General Rental Centers", "subindustry" : [
-               {"code" : "53231", "name" : "General Rental Centers", "subindustry" : []}
-            ]},
+            {"code" : "5323", "name" : "General Rental Centers", "subindustry" : []},
             {"code" : "5324", "name" : "Commercial and Industrial Machinery and Equipment Rental and Leasing", "subindustry" : [
                {"code" : "53241", "name" : "Construction, Transportation, Mining, and Forestry Machinery and Equipment Rental and Leasing", "subindustry" : [
                   {"code" : "532411", "name" : "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing", "subindustry" : []},
@@ -1695,29 +1467,21 @@
                {"code" : "53249", "name" : "Other Commercial and Industrial Machinery and Equipment Rental and Leasing", "subindustry" : []}
             ]}
          ]},
-         {"code" : "533", "name" : "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)", "subindustry" : [
-            {"code" : "5331", "name" : "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)", "subindustry" : [
-               {"code" : "53311", "name" : "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)", "subindustry" : []}
-            ]}
-         ]}
+         {"code" : "533", "name" : "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)", "subindustry" : []}
       ]},
       {"code" : "54", "name" : "Professional, Scientific, and Technical Services", "subindustry" : [
-         {"code" : "541", "name" : "Professional, Scientific, and Technical Services", "subindustry" : [
-            {"code" : "5411", "name" : "Legal Services", "subindustry" : [
-               {"code" : "54111", "name" : "Offices of Lawyers", "subindustry" : []},
-               {"code" : "54112", "name" : "Offices of Notaries", "subindustry" : []},
-               {"code" : "54119", "name" : "Other Legal Services", "subindustry" : [
-                  {"code" : "541191", "name" : "Title Abstract and Settlement Offices", "subindustry" : []},
-                  {"code" : "541199", "name" : "All Other Legal Services", "subindustry" : []}
-               ]}
+         {"code" : "5411", "name" : "Legal Services", "subindustry" : [
+            {"code" : "54111", "name" : "Offices of Lawyers", "subindustry" : []},
+            {"code" : "54112", "name" : "Offices of Notaries", "subindustry" : []},
+            {"code" : "54119", "name" : "Other Legal Services", "subindustry" : [
+               {"code" : "541191", "name" : "Title Abstract and Settlement Offices", "subindustry" : []},
+               {"code" : "541199", "name" : "All Other Legal Services", "subindustry" : []}
             ]},
             {"code" : "5412", "name" : "Accounting, Tax Preparation, Bookkeeping, and Payroll Services", "subindustry" : [
-               {"code" : "54121", "name" : "Accounting, Tax Preparation, Bookkeeping, and Payroll Services", "subindustry" : [
-                  {"code" : "541211", "name" : "Offices of Certified Public Accountants", "subindustry" : []},
-                  {"code" : "541213", "name" : "Tax Preparation Services", "subindustry" : []},
-                  {"code" : "541214", "name" : "Payroll Services", "subindustry" : []},
-                  {"code" : "541219", "name" : "Other Accounting Services", "subindustry" : []}
-               ]}
+               {"code" : "541211", "name" : "Offices of Certified Public Accountants", "subindustry" : []},
+               {"code" : "541213", "name" : "Tax Preparation Services", "subindustry" : []},
+               {"code" : "541214", "name" : "Payroll Services", "subindustry" : []},
+               {"code" : "541219", "name" : "Other Accounting Services", "subindustry" : []}
             ]},
             {"code" : "5413", "name" : "Architectural, Engineering, and Related Services", "subindustry" : [
                {"code" : "54131", "name" : "Architectural Services", "subindustry" : []},
@@ -1736,12 +1500,10 @@
                {"code" : "54149", "name" : "Other Specialized Design Services", "subindustry" : []}
             ]},
             {"code" : "5415", "name" : "Computer Systems Design and Related Services", "subindustry" : [
-               {"code" : "54151", "name" : "Computer Systems Design and Related Services", "subindustry" : [
-                  {"code" : "541511", "name" : "Custom Computer Programming Services", "subindustry" : []},
-                  {"code" : "541512", "name" : "Computer Systems Design Services", "subindustry" : []},
-                  {"code" : "541513", "name" : "Computer Facilities Management Services", "subindustry" : []},
-                  {"code" : "541519", "name" : "Other Computer Related Services", "subindustry" : []}
-               ]}
+               {"code" : "541511", "name" : "Custom Computer Programming Services", "subindustry" : []},
+               {"code" : "541512", "name" : "Computer Systems Design Services", "subindustry" : []},
+               {"code" : "541513", "name" : "Computer Facilities Management Services", "subindustry" : []},
+               {"code" : "541519", "name" : "Other Computer Related Services", "subindustry" : []}
             ]},
             {"code" : "5416", "name" : "Management, Scientific, and Technical Consulting Services", "subindustry" : [
                {"code" : "54161", "name" : "Management Consulting Services", "subindustry" : [
@@ -1784,24 +1546,14 @@
          ]}
       ]},
       {"code" : "55", "name" : "Management of Companies and Enterprises", "subindustry" : [
-         {"code" : "551", "name" : "Management of Companies and Enterprises", "subindustry" : [
-            {"code" : "5511", "name" : "Management of Companies and Enterprises", "subindustry" : [
-               {"code" : "55111", "name" : "Management of Companies and Enterprises", "subindustry" : [
-                  {"code" : "551111", "name" : "Offices of Bank Holding Companies", "subindustry" : []},
-                  {"code" : "551112", "name" : "Offices of Other Holding Companies", "subindustry" : []},
-                  {"code" : "551114", "name" : "Corporate, Subsidiary, and Regional Managing Offices", "subindustry" : []}
-               ]}
-            ]}
-         ]}
+         {"code" : "551111", "name" : "Offices of Bank Holding Companies", "subindustry" : []},
+         {"code" : "551112", "name" : "Offices of Other Holding Companies", "subindustry" : []},
+         {"code" : "551114", "name" : "Corporate, Subsidiary, and Regional Managing Offices", "subindustry" : []}
       ]},
       {"code" : "56", "name" : "Administrative and Support and Waste Management and Remediation Services", "subindustry" : [
          {"code" : "561", "name" : "Administrative and Support Services", "subindustry" : [
-            {"code" : "5611", "name" : "Office Administrative Services", "subindustry" : [
-               {"code" : "56111", "name" : "Office Administrative Services", "subindustry" : []}
-            ]},
-            {"code" : "5612", "name" : "Facilities Support Services", "subindustry" : [
-               {"code" : "56121", "name" : "Facilities Support Services", "subindustry" : []}
-            ]},
+            {"code" : "5611", "name" : "Office Administrative Services", "subindustry" : []},
+            {"code" : "5612", "name" : "Facilities Support Services", "subindustry" : []},
             {"code" : "5613", "name" : "Employment Services", "subindustry" : [
                {"code" : "56131", "name" : "Employment Placement Agencies and Executive Search Services", "subindustry" : [
                   {"code" : "561311", "name" : "Employment Placement Agencies", "subindustry" : []},
@@ -1862,19 +1614,15 @@
          ]},
          {"code" : "562", "name" : "Waste Management and Remediation Services", "subindustry" : [
             {"code" : "5621", "name" : "Waste Collection", "subindustry" : [
-               {"code" : "56211", "name" : "Waste Collection", "subindustry" : [
-                  {"code" : "562111", "name" : "Solid Waste Collection", "subindustry" : []},
-                  {"code" : "562112", "name" : "Hazardous Waste Collection", "subindustry" : []},
-                  {"code" : "562119", "name" : "Other Waste Collection", "subindustry" : []}
-               ]}
+               {"code" : "562111", "name" : "Solid Waste Collection", "subindustry" : []},
+               {"code" : "562112", "name" : "Hazardous Waste Collection", "subindustry" : []},
+               {"code" : "562119", "name" : "Other Waste Collection", "subindustry" : []}
             ]},
             {"code" : "5622", "name" : "Waste Treatment and Disposal", "subindustry" : [
-               {"code" : "56221", "name" : "Waste Treatment and Disposal", "subindustry" : [
-                  {"code" : "562211", "name" : "Hazardous Waste Treatment and Disposal", "subindustry" : []},
-                  {"code" : "562212", "name" : "Solid Waste Landfill", "subindustry" : []},
-                  {"code" : "562213", "name" : "Solid Waste Combustors and Incinerators", "subindustry" : []},
-                  {"code" : "562219", "name" : "Other Nonhazardous Waste Treatment and Disposal", "subindustry" : []}
-               ]}
+               {"code" : "562211", "name" : "Hazardous Waste Treatment and Disposal", "subindustry" : []},
+               {"code" : "562212", "name" : "Solid Waste Landfill", "subindustry" : []},
+               {"code" : "562213", "name" : "Solid Waste Combustors and Incinerators", "subindustry" : []},
+               {"code" : "562219", "name" : "Other Nonhazardous Waste Treatment and Disposal", "subindustry" : []}
             ]},
             {"code" : "5629", "name" : "Remediation and Other Waste Management Services", "subindustry" : [
                {"code" : "56291", "name" : "Remediation Services", "subindustry" : []},
@@ -1887,28 +1635,18 @@
          ]}
       ]},
       {"code" : "61", "name" : "Educational Services", "subindustry" : [
-         {"code" : "611", "name" : "Educational Services", "subindustry" : [
-            {"code" : "6111", "name" : "Elementary and Secondary Schools", "subindustry" : [
-               {"code" : "61111", "name" : "Elementary and Secondary Schools", "subindustry" : []}
-            ]},
-            {"code" : "6112", "name" : "Junior Colleges", "subindustry" : [
-               {"code" : "61121", "name" : "Junior Colleges", "subindustry" : []}
-            ]},
-            {"code" : "6113", "name" : "Colleges, Universities, and Professional Schools", "subindustry" : [
-               {"code" : "61131", "name" : "Colleges, Universities, and Professional Schools", "subindustry" : []}
-            ]},
-            {"code" : "6114", "name" : "Business Schools and Computer and Management Training", "subindustry" : [
-               {"code" : "61141", "name" : "Business and Secretarial Schools", "subindustry" : []},
-               {"code" : "61142", "name" : "Computer Training", "subindustry" : []},
-               {"code" : "61143", "name" : "Professional and Management Development Training", "subindustry" : []}
-            ]},
+         {"code" : "6111", "name" : "Elementary and Secondary Schools", "subindustry" : []},
+         {"code" : "6112", "name" : "Junior Colleges", "subindustry" : []},
+         {"code" : "6113", "name" : "Colleges, Universities, and Professional Schools", "subindustry" : []},
+         {"code" : "6114", "name" : "Business Schools and Computer and Management Training", "subindustry" : [
+            {"code" : "61141", "name" : "Business and Secretarial Schools", "subindustry" : []},
+            {"code" : "61142", "name" : "Computer Training", "subindustry" : []},
+            {"code" : "61143", "name" : "Professional and Management Development Training", "subindustry" : []},
             {"code" : "6115", "name" : "Technical and Trade Schools", "subindustry" : [
-               {"code" : "61151", "name" : "Technical and Trade Schools", "subindustry" : [
-                  {"code" : "611511", "name" : "Cosmetology and Barber Schools", "subindustry" : []},
-                  {"code" : "611512", "name" : "Flight Training", "subindustry" : []},
-                  {"code" : "611513", "name" : "Apprenticeship Training", "subindustry" : []},
-                  {"code" : "611519", "name" : "Other Technical and Trade Schools", "subindustry" : []}
-               ]}
+               {"code" : "611511", "name" : "Cosmetology and Barber Schools", "subindustry" : []},
+               {"code" : "611512", "name" : "Flight Training", "subindustry" : []},
+               {"code" : "611513", "name" : "Apprenticeship Training", "subindustry" : []},
+               {"code" : "611519", "name" : "Other Technical and Trade Schools", "subindustry" : []}
             ]},
             {"code" : "6116", "name" : "Other Schools and Instruction", "subindustry" : [
                {"code" : "61161", "name" : "Fine Arts Schools", "subindustry" : []},
@@ -1920,22 +1658,16 @@
                   {"code" : "611699", "name" : "All Other Miscellaneous Schools and Instruction", "subindustry" : []}
                ]}
             ]},
-            {"code" : "6117", "name" : "Educational Support Services", "subindustry" : [
-               {"code" : "61171", "name" : "Educational Support Services", "subindustry" : []}
-            ]}
+            {"code" : "6117", "name" : "Educational Support Services", "subindustry" : []}
          ]}
       ]},
       {"code" : "62", "name" : "Health Care and Social Assistance", "subindustry" : [
          {"code" : "621", "name" : "Ambulatory Health Care Services", "subindustry" : [
             {"code" : "6211", "name" : "Offices of Physicians", "subindustry" : [
-               {"code" : "62111", "name" : "Offices of Physicians", "subindustry" : [
-                  {"code" : "621111", "name" : "Offices of Physicians (except Mental Health Specialists)", "subindustry" : []},
-                  {"code" : "621112", "name" : "Offices of Physicians, Mental Health Specialists", "subindustry" : []}
-               ]}
+               {"code" : "621111", "name" : "Offices of Physicians (except Mental Health Specialists)", "subindustry" : []},
+               {"code" : "621112", "name" : "Offices of Physicians, Mental Health Specialists", "subindustry" : []}
             ]},
-            {"code" : "6212", "name" : "Offices of Dentists", "subindustry" : [
-               {"code" : "62121", "name" : "Offices of Dentists", "subindustry" : []}
-            ]},
+            {"code" : "6212", "name" : "Offices of Dentists", "subindustry" : []},
             {"code" : "6213", "name" : "Offices of Other Health Practitioners", "subindustry" : [
                {"code" : "62131", "name" : "Offices of Chiropractors", "subindustry" : []},
                {"code" : "62132", "name" : "Offices of Optometrists", "subindustry" : []},
@@ -1957,14 +1689,10 @@
                ]}
             ]},
             {"code" : "6215", "name" : "Medical and Diagnostic Laboratories", "subindustry" : [
-               {"code" : "62151", "name" : "Medical and Diagnostic Laboratories", "subindustry" : [
-                  {"code" : "621511", "name" : "Medical Laboratories", "subindustry" : []},
-                  {"code" : "621512", "name" : "Diagnostic Imaging Centers", "subindustry" : []}
-               ]}
+               {"code" : "621511", "name" : "Medical Laboratories", "subindustry" : []},
+               {"code" : "621512", "name" : "Diagnostic Imaging Centers", "subindustry" : []}
             ]},
-            {"code" : "6216", "name" : "Home Health Care Services", "subindustry" : [
-               {"code" : "62161", "name" : "Home Health Care Services", "subindustry" : []}
-            ]},
+            {"code" : "6216", "name" : "Home Health Care Services", "subindustry" : []},
             {"code" : "6219", "name" : "Other Ambulatory Health Care Services", "subindustry" : [
                {"code" : "62191", "name" : "Ambulance Services", "subindustry" : []},
                {"code" : "62199", "name" : "All Other Ambulatory Health Care Services", "subindustry" : [
@@ -1974,33 +1702,21 @@
             ]}
          ]},
          {"code" : "622", "name" : "Hospitals", "subindustry" : [
-            {"code" : "6221", "name" : "General Medical and Surgical Hospitals", "subindustry" : [
-               {"code" : "62211", "name" : "General Medical and Surgical Hospitals", "subindustry" : []}
-            ]},
-            {"code" : "6222", "name" : "Psychiatric and Substance Abuse Hospitals", "subindustry" : [
-               {"code" : "62221", "name" : "Psychiatric and Substance Abuse Hospitals", "subindustry" : []}
-            ]},
-            {"code" : "6223", "name" : "Specialty (except Psychiatric and Substance Abuse) Hospitals", "subindustry" : [
-               {"code" : "62231", "name" : "Specialty (except Psychiatric and Substance Abuse) Hospitals", "subindustry" : []}
-            ]}
+            {"code" : "6221", "name" : "General Medical and Surgical Hospitals", "subindustry" : []},
+            {"code" : "6222", "name" : "Psychiatric and Substance Abuse Hospitals", "subindustry" : []},
+            {"code" : "6223", "name" : "Specialty (except Psychiatric and Substance Abuse) Hospitals", "subindustry" : []}
          ]},
          {"code" : "623", "name" : "Nursing and Residential Care Facilities", "subindustry" : [
-            {"code" : "6231", "name" : "Nursing Care Facilities (Skilled Nursing Facilities)", "subindustry" : [
-               {"code" : "62311", "name" : "Nursing Care Facilities (Skilled Nursing Facilities)", "subindustry" : []}
-            ]},
+            {"code" : "6231", "name" : "Nursing Care Facilities (Skilled Nursing Facilities)", "subindustry" : []},
             {"code" : "6232", "name" : "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities", "subindustry" : [
                {"code" : "62321", "name" : "Residential Intellectual and Developmental Disability Facilities", "subindustry" : []},
                {"code" : "62322", "name" : "Residential Mental Health and Substance Abuse Facilities", "subindustry" : []}
             ]},
             {"code" : "6233", "name" : "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly", "subindustry" : [
-               {"code" : "62331", "name" : "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly", "subindustry" : [
-                  {"code" : "623311", "name" : "Continuing Care Retirement Communities", "subindustry" : []},
-                  {"code" : "623312", "name" : "Assisted Living Facilities for the Elderly", "subindustry" : []}
-               ]}
+               {"code" : "623311", "name" : "Continuing Care Retirement Communities", "subindustry" : []},
+               {"code" : "623312", "name" : "Assisted Living Facilities for the Elderly", "subindustry" : []}
             ]},
-            {"code" : "6239", "name" : "Other Residential Care Facilities", "subindustry" : [
-               {"code" : "62399", "name" : "Other Residential Care Facilities", "subindustry" : []}
-            ]}
+            {"code" : "6239", "name" : "Other Residential Care Facilities", "subindustry" : []}
          ]},
          {"code" : "624", "name" : "Social Assistance", "subindustry" : [
             {"code" : "6241", "name" : "Individual and Family Services", "subindustry" : [
@@ -2016,12 +1732,8 @@
                ]},
                {"code" : "62423", "name" : "Emergency and Other Relief Services", "subindustry" : []}
             ]},
-            {"code" : "6243", "name" : "Vocational Rehabilitation Services", "subindustry" : [
-               {"code" : "62431", "name" : "Vocational Rehabilitation Services", "subindustry" : []}
-            ]},
-            {"code" : "6244", "name" : "Child Day Care Services", "subindustry" : [
-               {"code" : "62441", "name" : "Child Day Care Services", "subindustry" : []}
-            ]}
+            {"code" : "6243", "name" : "Vocational Rehabilitation Services", "subindustry" : []},
+            {"code" : "6244", "name" : "Child Day Care Services", "subindustry" : []}
          ]}
       ]},
       {"code" : "71", "name" : "Arts, Entertainment, and Recreation", "subindustry" : [
@@ -2033,30 +1745,22 @@
                {"code" : "71119", "name" : "Other Performing Arts Companies", "subindustry" : []}
             ]},
             {"code" : "7112", "name" : "Spectator Sports", "subindustry" : [
-               {"code" : "71121", "name" : "Spectator Sports", "subindustry" : [
-                  {"code" : "711211", "name" : "Sports Teams and Clubs", "subindustry" : []},
-                  {"code" : "711212", "name" : "Racetracks", "subindustry" : []},
-                  {"code" : "711219", "name" : "Other Spectator Sports", "subindustry" : []}
-               ]}
+               {"code" : "711211", "name" : "Sports Teams and Clubs", "subindustry" : []},
+               {"code" : "711212", "name" : "Racetracks", "subindustry" : []},
+               {"code" : "711219", "name" : "Other Spectator Sports", "subindustry" : []}
             ]},
             {"code" : "7113", "name" : "Promoters of Performing Arts, Sports, and Similar Events", "subindustry" : [
                {"code" : "71131", "name" : "Promoters of Performing Arts, Sports, and Similar Events with Facilities", "subindustry" : []},
                {"code" : "71132", "name" : "Promoters of Performing Arts, Sports, and Similar Events without Facilities", "subindustry" : []}
             ]},
-            {"code" : "7114", "name" : "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures", "subindustry" : [
-               {"code" : "71141", "name" : "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures", "subindustry" : []}
-            ]},
-            {"code" : "7115", "name" : "Independent Artists, Writers, and Performers", "subindustry" : [
-               {"code" : "71151", "name" : "Independent Artists, Writers, and Performers", "subindustry" : []}
-            ]}
+            {"code" : "7114", "name" : "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures", "subindustry" : []},
+            {"code" : "7115", "name" : "Independent Artists, Writers, and Performers", "subindustry" : []}
          ]},
          {"code" : "712", "name" : "Museums, Historical Sites, and Similar Institutions", "subindustry" : [
-            {"code" : "7121", "name" : "Museums, Historical Sites, and Similar Institutions", "subindustry" : [
-               {"code" : "71211", "name" : "Museums", "subindustry" : []},
-               {"code" : "71212", "name" : "Historical Sites", "subindustry" : []},
-               {"code" : "71213", "name" : "Zoos and Botanical Gardens", "subindustry" : []},
-               {"code" : "71219", "name" : "Nature Parks and Other Similar Institutions", "subindustry" : []}
-            ]}
+            {"code" : "71211", "name" : "Museums", "subindustry" : []},
+            {"code" : "71212", "name" : "Historical Sites", "subindustry" : []},
+            {"code" : "71213", "name" : "Zoos and Botanical Gardens", "subindustry" : []},
+            {"code" : "71219", "name" : "Nature Parks and Other Similar Institutions", "subindustry" : []}
          ]},
          {"code" : "713", "name" : "Amusement, Gambling, and Recreation Industries", "subindustry" : [
             {"code" : "7131", "name" : "Amusement Parks and Arcades", "subindustry" : [
@@ -2083,19 +1787,15 @@
                {"code" : "72111", "name" : "Hotels (except Casino Hotels) and Motels", "subindustry" : []},
                {"code" : "72112", "name" : "Casino Hotels", "subindustry" : []},
                {"code" : "72119", "name" : "Other Traveler Accommodation", "subindustry" : [
-                  {"code" : "721191", "name" : "BedandBreakfast Inns", "subindustry" : []},
+                  {"code" : "721191", "name" : "Bed-and-Breakfast Inns", "subindustry" : []},
                   {"code" : "721199", "name" : "All Other Traveler Accommodation", "subindustry" : []}
                ]}
             ]},
             {"code" : "7212", "name" : "RV (Recreational Vehicle) Parks and Recreational Camps", "subindustry" : [
-               {"code" : "72121", "name" : "RV (Recreational Vehicle) Parks and Recreational Camps", "subindustry" : [
-                  {"code" : "721211", "name" : "RV (Recreational Vehicle) Parks and Campgrounds", "subindustry" : []},
-                  {"code" : "721214", "name" : "Recreational and Vacation Camps (except Campgrounds)", "subindustry" : []}
-               ]}
+               {"code" : "721211", "name" : "RV (Recreational Vehicle) Parks and Campgrounds", "subindustry" : []},
+               {"code" : "721214", "name" : "Recreational and Vacation Camps (except Campgrounds)", "subindustry" : []}
             ]},
-            {"code" : "7213", "name" : "Rooming and Boarding Houses", "subindustry" : [
-               {"code" : "72131", "name" : "Rooming and Boarding Houses", "subindustry" : []}
-            ]}
+            {"code" : "7213", "name" : "Rooming and Boarding Houses", "subindustry" : []}
          ]},
          {"code" : "722", "name" : "Food Services and Drinking Places", "subindustry" : [
             {"code" : "7223", "name" : "Special Food Services", "subindustry" : [
@@ -2103,16 +1803,12 @@
                {"code" : "72232", "name" : "Caterers", "subindustry" : []},
                {"code" : "72233", "name" : "Mobile Food Services", "subindustry" : []}
             ]},
-            {"code" : "7224", "name" : "Drinking Places (Alcoholic Beverages)", "subindustry" : [
-               {"code" : "72241", "name" : "Drinking Places (Alcoholic Beverages)", "subindustry" : []}
-            ]},
+            {"code" : "7224", "name" : "Drinking Places (Alcoholic Beverages)", "subindustry" : []},
             {"code" : "7225", "name" : "Restaurants and Other Eating Places", "subindustry" : [
-               {"code" : "72251", "name" : "Restaurants and Other Eating Places", "subindustry" : [
-                  {"code" : "722511", "name" : "FullService Restaurants", "subindustry" : []},
-                  {"code" : "722513", "name" : "LimitedService Restaurants", "subindustry" : []},
-                  {"code" : "722514", "name" : "Cafeterias, Grill Buffets, and Buffets", "subindustry" : []},
-                  {"code" : "722515", "name" : "Snack and Nonalcoholic Beverage Bars", "subindustry" : []}
-               ]}
+               {"code" : "722511", "name" : "Full-Service Restaurants", "subindustry" : []},
+               {"code" : "722513", "name" : "Limited-Service Restaurants", "subindustry" : []},
+               {"code" : "722514", "name" : "Cafeterias, Grill Buffets, and Buffets", "subindustry" : []},
+               {"code" : "722515", "name" : "Snack and Nonalcoholic Beverage Bars", "subindustry" : []}
             ]}
          ]}
       ]},
@@ -2136,16 +1832,12 @@
                ]}
             ]},
             {"code" : "8112", "name" : "Electronic and Precision Equipment Repair and Maintenance", "subindustry" : [
-               {"code" : "81121", "name" : "Electronic and Precision Equipment Repair and Maintenance", "subindustry" : [
-                  {"code" : "811211", "name" : "Consumer Electronics Repair and Maintenance", "subindustry" : []},
-                  {"code" : "811212", "name" : "Computer and Office Machine Repair and Maintenance", "subindustry" : []},
-                  {"code" : "811213", "name" : "Communication Equipment Repair and Maintenance", "subindustry" : []},
-                  {"code" : "811219", "name" : "Other Electronic and Precision Equipment Repair and Maintenance", "subindustry" : []}
-               ]}
+               {"code" : "811211", "name" : "Consumer Electronics Repair and Maintenance", "subindustry" : []},
+               {"code" : "811212", "name" : "Computer and Office Machine Repair and Maintenance", "subindustry" : []},
+               {"code" : "811213", "name" : "Communication Equipment Repair and Maintenance", "subindustry" : []},
+               {"code" : "811219", "name" : "Other Electronic and Precision Equipment Repair and Maintenance", "subindustry" : []}
             ]},
-            {"code" : "8113", "name" : "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance", "subindustry" : [
-               {"code" : "81131", "name" : "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance", "subindustry" : []}
-            ]},
+            {"code" : "8113", "name" : "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance", "subindustry" : []},
             {"code" : "8114", "name" : "Personal and Household Goods Repair and Maintenance", "subindustry" : [
                {"code" : "81141", "name" : "Home and Garden Equipment and Appliance Repair and Maintenance", "subindustry" : [
                   {"code" : "811411", "name" : "Home and Garden Equipment Repair and Maintenance", "subindustry" : []},
@@ -2164,8 +1856,7 @@
                   {"code" : "812113", "name" : "Nail Salons", "subindustry" : []}
                ]},
                {"code" : "81219", "name" : "Other Personal Care Services", "subindustry" : [
-                  {"code" : "812191", "name" : "Diet and Weight Reducing Centers", "subindustry" : []},
-                  {"code" : "812199", "name" : "Other Personal Care Services", "subindustry" : []}
+                  {"code" : "812191", "name" : "Diet and Weight Reducing Centers", "subindustry" : []}
                ]}
             ]},
             {"code" : "8122", "name" : "Death Care Services", "subindustry" : [
@@ -2173,8 +1864,8 @@
                {"code" : "81222", "name" : "Cemeteries and Crematories", "subindustry" : []}
             ]},
             {"code" : "8123", "name" : "Drycleaning and Laundry Services", "subindustry" : [
-               {"code" : "81231", "name" : "CoinOperated Laundries and Drycleaners", "subindustry" : []},
-               {"code" : "81232", "name" : "Drycleaning and Laundry Services (except CoinOperated)", "subindustry" : []},
+               {"code" : "81231", "name" : "Coin-Operated Laundries and Drycleaners", "subindustry" : []},
+               {"code" : "81232", "name" : "Drycleaning and Laundry Services (except Coin-Operated)", "subindustry" : []},
                {"code" : "81233", "name" : "Linen and Uniform Supply", "subindustry" : [
                   {"code" : "812331", "name" : "Linen Supply", "subindustry" : []},
                   {"code" : "812332", "name" : "Industrial Launderers", "subindustry" : []}
@@ -2183,34 +1874,26 @@
             {"code" : "8129", "name" : "Other Personal Services", "subindustry" : [
                {"code" : "81291", "name" : "Pet Care (except Veterinary) Services", "subindustry" : []},
                {"code" : "81292", "name" : "Photofinishing", "subindustry" : [
-                  {"code" : "812921", "name" : "Photofinishing Laboratories (except OneHour)", "subindustry" : []},
-                  {"code" : "812922", "name" : "OneHour Photofinishing", "subindustry" : []}
+                  {"code" : "812921", "name" : "Photofinishing Laboratories (except One-Hour)", "subindustry" : []},
+                  {"code" : "812922", "name" : "One-Hour Photofinishing", "subindustry" : []}
                ]},
                {"code" : "81293", "name" : "Parking Lots and Garages", "subindustry" : []},
                {"code" : "81299", "name" : "All Other Personal Services", "subindustry" : []}
             ]}
          ]},
          {"code" : "813", "name" : "Religious, Grantmaking, Civic, Professional, and Similar Organizations", "subindustry" : [
-            {"code" : "8131", "name" : "Religious Organizations", "subindustry" : [
-               {"code" : "81311", "name" : "Religious Organizations", "subindustry" : []}
-            ]},
+            {"code" : "8131", "name" : "Religious Organizations", "subindustry" : []},
             {"code" : "8132", "name" : "Grantmaking and Giving Services", "subindustry" : [
-               {"code" : "81321", "name" : "Grantmaking and Giving Services", "subindustry" : [
-                  {"code" : "813211", "name" : "Grantmaking Foundations", "subindustry" : []},
-                  {"code" : "813212", "name" : "Voluntary Health Organizations", "subindustry" : []},
-                  {"code" : "813219", "name" : "Other Grantmaking and Giving Services", "subindustry" : []}
-               ]}
+               {"code" : "813211", "name" : "Grantmaking Foundations", "subindustry" : []},
+               {"code" : "813212", "name" : "Voluntary Health Organizations", "subindustry" : []},
+               {"code" : "813219", "name" : "Other Grantmaking and Giving Services", "subindustry" : []}
             ]},
             {"code" : "8133", "name" : "Social Advocacy Organizations", "subindustry" : [
-               {"code" : "81331", "name" : "Social Advocacy Organizations", "subindustry" : [
-                  {"code" : "813311", "name" : "Human Rights Organizations", "subindustry" : []},
-                  {"code" : "813312", "name" : "Environment, Conservation and Wildlife Organizations", "subindustry" : []},
-                  {"code" : "813319", "name" : "Other Social Advocacy Organizations", "subindustry" : []}
-               ]}
+               {"code" : "813311", "name" : "Human Rights Organizations", "subindustry" : []},
+               {"code" : "813312", "name" : "Environment, Conservation and Wildlife Organizations", "subindustry" : []},
+               {"code" : "813319", "name" : "Other Social Advocacy Organizations", "subindustry" : []}
             ]},
-            {"code" : "8134", "name" : "Civic and Social Organizations", "subindustry" : [
-               {"code" : "81341", "name" : "Civic and Social Organizations", "subindustry" : []}
-            ]},
+            {"code" : "8134", "name" : "Civic and Social Organizations", "subindustry" : []},
             {"code" : "8139", "name" : "Business, Professional, Labor, Political, and Similar Organizations", "subindustry" : [
                {"code" : "81391", "name" : "Business Associations", "subindustry" : []},
                {"code" : "81392", "name" : "Professional Organizations", "subindustry" : []},
@@ -2219,73 +1902,51 @@
                {"code" : "81399", "name" : "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)", "subindustry" : []}
             ]}
          ]},
-         {"code" : "814", "name" : "Private Households", "subindustry" : [
-            {"code" : "8141", "name" : "Private Households", "subindustry" : [
-               {"code" : "81411", "name" : "Private Households", "subindustry" : []}
-            ]}
-         ]}
+         {"code" : "814", "name" : "Private Households", "subindustry" : []}
       ]},
       {"code" : "92", "name" : "Public Administration", "subindustry" : [
          {"code" : "921", "name" : "Executive, Legislative, and Other General Government Support", "subindustry" : [
-            {"code" : "9211", "name" : "Executive, Legislative, and Other General Government Support", "subindustry" : [
-               {"code" : "92111", "name" : "Executive Offices", "subindustry" : []},
-               {"code" : "92112", "name" : "Legislative Bodies", "subindustry" : []},
-               {"code" : "92113", "name" : "Public Finance Activities", "subindustry" : []},
-               {"code" : "92114", "name" : "Executive and Legislative Offices, Combined", "subindustry" : []},
-               {"code" : "92115", "name" : "American Indian and Alaska Native Tribal Governments", "subindustry" : []},
-               {"code" : "92119", "name" : "Other General Government Support", "subindustry" : []}
-            ]}
+            {"code" : "92111", "name" : "Executive Offices", "subindustry" : []},
+            {"code" : "92112", "name" : "Legislative Bodies", "subindustry" : []},
+            {"code" : "92113", "name" : "Public Finance Activities", "subindustry" : []},
+            {"code" : "92114", "name" : "Executive and Legislative Offices, Combined", "subindustry" : []},
+            {"code" : "92115", "name" : "American Indian and Alaska Native Tribal Governments", "subindustry" : []},
+            {"code" : "92119", "name" : "Other General Government Support", "subindustry" : []}
          ]},
          {"code" : "922", "name" : "Justice, Public Order, and Safety Activities", "subindustry" : [
-            {"code" : "9221", "name" : "Justice, Public Order, and Safety Activities", "subindustry" : [
-               {"code" : "92211", "name" : "Courts", "subindustry" : []},
-               {"code" : "92212", "name" : "Police Protection", "subindustry" : []},
-               {"code" : "92213", "name" : "Legal Counsel and Prosecution", "subindustry" : []},
-               {"code" : "92214", "name" : "Correctional Institutions", "subindustry" : []},
-               {"code" : "92215", "name" : "Parole Offices and Probation Offices", "subindustry" : []},
-               {"code" : "92216", "name" : "Fire Protection", "subindustry" : []},
-               {"code" : "92219", "name" : "Other Justice, Public Order, and Safety Activities", "subindustry" : []}
-            ]}
+            {"code" : "92211", "name" : "Courts", "subindustry" : []},
+            {"code" : "92212", "name" : "Police Protection", "subindustry" : []},
+            {"code" : "92213", "name" : "Legal Counsel and Prosecution", "subindustry" : []},
+            {"code" : "92214", "name" : "Correctional Institutions", "subindustry" : []},
+            {"code" : "92215", "name" : "Parole Offices and Probation Offices", "subindustry" : []},
+            {"code" : "92216", "name" : "Fire Protection", "subindustry" : []},
+            {"code" : "92219", "name" : "Other Justice, Public Order, and Safety Activities", "subindustry" : []}
          ]},
          {"code" : "923", "name" : "Administration of Human Resource Programs", "subindustry" : [
-            {"code" : "9231", "name" : "Administration of Human Resource Programs", "subindustry" : [
-               {"code" : "92311", "name" : "Administration of Education Programs", "subindustry" : []},
-               {"code" : "92312", "name" : "Administration of Public Health Programs", "subindustry" : []},
-               {"code" : "92313", "name" : "Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)", "subindustry" : []},
-               {"code" : "92314", "name" : "Administration of Veterans' Affairs", "subindustry" : []}
-            ]}
+            {"code" : "92311", "name" : "Administration of Education Programs", "subindustry" : []},
+            {"code" : "92312", "name" : "Administration of Public Health Programs", "subindustry" : []},
+            {"code" : "92313", "name" : "Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)", "subindustry" : []},
+            {"code" : "92314", "name" : "Administration of Veterans' Affairs", "subindustry" : []}
          ]},
          {"code" : "924", "name" : "Administration of Environmental Quality Programs", "subindustry" : [
-            {"code" : "9241", "name" : "Administration of Environmental Quality Programs", "subindustry" : [
-               {"code" : "92411", "name" : "Administration of Air and Water Resource and Solid Waste Management Programs", "subindustry" : []},
-               {"code" : "92412", "name" : "Administration of Conservation Programs", "subindustry" : []}
-            ]}
+            {"code" : "92411", "name" : "Administration of Air and Water Resource and Solid Waste Management Programs", "subindustry" : []},
+            {"code" : "92412", "name" : "Administration of Conservation Programs", "subindustry" : []}
          ]},
          {"code" : "925", "name" : "Administration of Housing Programs, Urban Planning, and Community Development", "subindustry" : [
-            {"code" : "9251", "name" : "Administration of Housing Programs, Urban Planning, and Community Development", "subindustry" : [
-               {"code" : "92511", "name" : "Administration of Housing Programs", "subindustry" : []},
-               {"code" : "92512", "name" : "Administration of Urban Planning and Community and Rural Development", "subindustry" : []}
-            ]}
+            {"code" : "92511", "name" : "Administration of Housing Programs", "subindustry" : []},
+            {"code" : "92512", "name" : "Administration of Urban Planning and Community and Rural Development", "subindustry" : []}
          ]},
          {"code" : "926", "name" : "Administration of Economic Programs", "subindustry" : [
-            {"code" : "9261", "name" : "Administration of Economic Programs", "subindustry" : [
-               {"code" : "92611", "name" : "Administration of General Economic Programs", "subindustry" : []},
-               {"code" : "92612", "name" : "Regulation and Administration of Transportation Programs", "subindustry" : []},
-               {"code" : "92613", "name" : "Regulation and Administration of Communications, Electric, Gas, and Other Utilities", "subindustry" : []},
-               {"code" : "92614", "name" : "Regulation of Agricultural Marketing and Commodities", "subindustry" : []},
-               {"code" : "92615", "name" : "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors", "subindustry" : []}
-            ]}
+            {"code" : "92611", "name" : "Administration of General Economic Programs", "subindustry" : []},
+            {"code" : "92612", "name" : "Regulation and Administration of Transportation Programs", "subindustry" : []},
+            {"code" : "92613", "name" : "Regulation and Administration of Communications, Electric, Gas, and Other Utilities", "subindustry" : []},
+            {"code" : "92614", "name" : "Regulation of Agricultural Marketing and Commodities", "subindustry" : []},
+            {"code" : "92615", "name" : "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors", "subindustry" : []}
          ]},
-         {"code" : "927", "name" : "Space Research and Technology", "subindustry" : [
-            {"code" : "9271", "name" : "Space Research and Technology", "subindustry" : [
-               {"code" : "92711", "name" : "Space Research and Technology", "subindustry" : []}
-            ]}
-         ]},
+         {"code" : "927", "name" : "Space Research and Technology", "subindustry" : []},
          {"code" : "928", "name" : "National Security and International Affairs", "subindustry" : [
-            {"code" : "9281", "name" : "National Security and International Affairs", "subindustry" : [
-               {"code" : "92811", "name" : "National Security", "subindustry" : []},
-               {"code" : "92812", "name" : "International Affairs", "subindustry" : []}
-			]}
-		]}
-	]}
-]}
+            {"code" : "92811", "name" : "National Security", "subindustry" : []},
+            {"code" : "92812", "name" : "International Affairs", "subindustry" : []}
+         ]}
+      ]}
+   ]}

@@ -7,6 +7,15 @@
 		<li ui-sref-active="active"><a ui-sref="industries.sub.experts">Experts</a></li>
 		<li ui-sref-active="active"><a ui-sref="industries.sub.reports">Reports</a></li>
 		<li ui-sref-active="active"><a ui-sref="industries.sub.future">Future</a></li>
+				<li class="dropdown" ng-show="subIndustries.length">
+			<a data-target="#" href="#" data-toggle="dropdown" class="dropdown-toggle">Market Area<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li class="active"><a>Global</a></li>
+				<li class="disabled"><a>Europe</a></li>
+				<li class="disabled"><a>Asia</a></li>
+				<li class="disabled"><a>Americas</a></li>
+				<li class="disabled"><a>Africa</a></li>
+			</ul>
 		<li class="dropdown" ng-show="subIndustries.length">
 			<a data-target="#" href="#" data-toggle="dropdown" class="dropdown-toggle">Subindustries</a>
 			<ul class="dropdown-menu">

@@ -32,7 +32,7 @@ function checkSubIndustries(industry) {
 
 
 	industryObject.save(function (err) {
-		if (err) return handleError(err);
+		if (err) return err;
 	});
 	
 	parentCodes.push(industry.code);
