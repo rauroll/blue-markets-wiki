@@ -27,6 +27,19 @@ angular.module('bmwApp').controller('SubIndustryController', ['$scope', '$state'
 		});
 	}
 
+	$scope.futureLabels = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018'];
+	$scope.series = ['Series A'];
+
+	$scope.futureData = [
+	[6.3, 630, 1260, 2520, 5166, 7140, 8862, 10920, 12642]
+	];
+
+	$scope.presentLabels = ['2010', '2011', '2012', '2013', '2014', '2015'];
+
+	$scope.presentData = [
+	[6.3, 630, 1260, 2520, 5166, 7140]
+	];
+
 	$scope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
 		if (toState == 'account') {
 			$scope.getRequests();
