@@ -34,11 +34,11 @@ angular.module('bmwApp').controller('MainController', ['$scope',  'DataService',
 	}
 
 	$scope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
-		$scope.searchResults = [];
+		$scope.searchResults = undefined;
 	})
 
 	$scope.closeResults = function() {
-		$scope.searchResults = [];
+		$scope.searchResults = undefined;
 	}
 
 	$scope.getTopLevelIndustries();
