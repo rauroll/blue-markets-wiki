@@ -1,26 +1,46 @@
 <div class="tab-pane" id="industry-content-wrapper">
 	<h2>Future</h2>
+	<ul class="media-list list-group" ng-if="industry.code!=3345191">
+		<li class="media list-group-item player-list-item">
+			<div class="media-left media-middle expert-icon">
+				<a href="#">
+					<span class="media-object glyphicon glyphicon-alert"></span>
+				</a>
+			</div>
+			<div class="media-body">
+				<h4 class="media-heading">No writings about this industry</h4>
+				<p>We are sorry but nobody has written about this industry yet. Feel free to request content and inform us about your needs!</p>
+			</div>
+		</li>
+	</ul>
+	<div ng-if="industry.code==3345191">
 	<div class="row">
 		<div class="col-xs-8 col-xs-offset-2">
-			<!-- <img src="img/wearable_future.PNG" style=""></div> -->
+			<!-- <img src="img/wearable_future.PNG" style=""> -->
 			<canvas id="bar" class="chart chart-bar"
 			chart-data="futureData" chart-labels="futureLabels">
 		</canvas>
+		</div>
 	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<h2>Expert future reports</h2>
-			<ul class="media-list list-group">
-				<li class="media list-group-item player-list-item">
-					<div class="media-left media-middle expert-icon">
-						<span class="glyphicon glyphicon-user"></span>
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">John Smith</h4>
-						<p>I think everything will be great and amazing!!</p>
-					</div>
-				</li>
+
+		<div class="row">
+	<div class="col-xs-12">
+	<h2>Expert future reports</h2>
+		<ul class="media-list list-group">
+  <li class="media list-group-item player-list-item">
+    <div class="media-left media-middle expert-icon">
+        <span class="glyphicon glyphicon-user"></span>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">John Smith</h4>
+      <p>I think everything will be great and amazing!!</p>
+	  <button class="upvote btn btn-primary" ng-click="addUpvote()">Upvote <span class="badge" ng-bind="upvoteCounter"></span></button>
+    </div>
+  </li>
 
 			</ul>
 		</div>
+		</div>
 	</div>
+	<div my-request>
+</div>

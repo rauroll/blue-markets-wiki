@@ -1,7 +1,11 @@
 
-angular.module('bmwApp').controller('SubIndustryController', ['$scope', '$state', '$stateParams', 'DataService', function($scope, $state, $stateParams, DataService) {
+angular.module('bmwApp').controller('SubIndustryController', ['$scope','$window', '$state', '$stateParams', 'DataService', function($scope, $window,$state, $stateParams, DataService) {
 
-
+	$scope.upvoteCounter = 1;
+	$scope.addUpvote = function() {
+		$scope.upvoteCounter = $scope.upvoteCounter+1;
+	}
+	
 	var loadData = function() {
 
 		DataService.getIndustry($stateParams.industryCode).then(function(data) {

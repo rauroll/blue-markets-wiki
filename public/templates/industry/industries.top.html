@@ -3,7 +3,7 @@
 	<div ng-repeat="industry in industries">
 		<a ui-sref="industries.sub.summary({industryCode: industry.code})">
 			<div id="top-level-item" class="col-md-4 portfolio-item">
-				<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+				<img style="width:352px;height:200px;" class="img-responsive" src="{{industryUrls[$index]}}" alt="">
 				<div class="item-text-wrapper">
 					<h5>{{ industry.name }}</h5>
 				</div>

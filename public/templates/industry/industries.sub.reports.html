@@ -1,6 +1,19 @@
 <div class="tab-pane" id="industry-content-wrapper">
 	<h2>Reports</h2>
-		<ul class="media-list list-group">
+	<ul class="media-list list-group" ng-if="industry.code!=3345191">
+		<li class="media list-group-item player-list-item">
+			<div class="media-left media-middle expert-icon">
+				<a href="#">
+					<span class="media-object glyphicon glyphicon-alert"></span>
+				</a>
+			</div>
+			<div class="media-body">
+				<h4 class="media-heading">No writings about this industry</h4>
+				<p>We are sorry but nobody has written about this industry yet. Feel free to request content and inform us about your needs!</p>
+			</div>
+		</li>
+	</ul>
+		<ul class="media-list list-group" ng-if="industry.code==3345191">
   <li class="media list-group-item player-list-item">
     <div class="media-left media-middle expert-icon">
         <span class="glyphicon glyphicon-stats"></span>
@@ -34,6 +47,7 @@
 		</div>
   </li>
 </ul>
+	<div my-request>
 </div>
 
 <script>

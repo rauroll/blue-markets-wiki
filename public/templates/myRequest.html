@@ -1,5 +1,8 @@
-<div ng-show="!requestFormOpened">
-	<button class="btn btn-default" ng-click="openRequestForm()">Request {{requestType}}</button>
+<div ng-show="!requestFormOpened" ng-init="sent=false">
+	<div class="alert alert-success alert-message" role="alert" ng-if="sent">
+		<a href="#" class="alert-link" >Requested more content successfully!</a>
+	</div>
+	<button class="btn btn-primary" ng-click="openRequestForm()">Request more content</button>
 </div>
 <div ng-show="requestFormOpened">
 	<form class="form" ng-submit="createRequest()">
@@ -12,7 +15,7 @@
 		<div class="row">
 			<div class="col-xs-8">
 				<button class="btn btn-default" ng-click="closeRequestForm()">Close</button>
-				<button type="submit" class="btn btn-info" ng-disabled="disabled">Send</button>
+				<button type="submit" class="btn btn-info" ng-click="closeRequestForm();sent=true" >Send</button>
 			</div>
 		</div>
 	</form>

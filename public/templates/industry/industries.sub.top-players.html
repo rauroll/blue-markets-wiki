@@ -1,6 +1,19 @@
 <div class="tab-pane" id="industry-content-wrapper">
 	<h2>Top players and market shares</h2>
-	<ul class="media-list list-group">
+	<ul class="media-list list-group" ng-if="industry.code!=3345191">
+		<li class="media list-group-item player-list-item">
+			<div class="media-left media-middle expert-icon">
+				<a href="#">
+					<span class="media-object glyphicon glyphicon-alert"></span>
+				</a>
+			</div>
+			<div class="media-body">
+				<h4 class="media-heading">No writings about this industry</h4>
+				<p>We are sorry but nobody has written about this industry yet. Feel free to request content and inform us about your needs!</p>
+			</div>
+		</li>
+	</ul>
+	<ul class="media-list list-group" ng-if="industry.code==3345191">
   <li class="media list-group-item player-list-item">
     <div class="media-left media-middle">
       <a href="#">
@@ -38,36 +51,26 @@
     <li class="media list-group-item player-list-item">
     <div class="media-left media-middle">
       <a href="#">
-        <img  class="media-object img-responsive" src="data:image/png;base64,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" alt="Garmin">
+        <img  class="media-object" src="http://inspire.k-state.edu/images/donor_section/365x365-square-garmin.jpg" alt="Garmin">
       </a>
     </div>
     <div class="media-body">
       <h4 class="media-heading">Garmin</h4>
-      <p>sdfsdfsdfdsf</p>
+      <p>Garmin develops consumer, aviation, outdoor, fitness, and marine technologies for the Global Positioning System. Garmin Ltd. is the Swiss parent company of a group of companies founded in 1989 by Gary Burrell and Min Kao. Garmin manufactures a myriad of different smart wearables. For example the Vivoactive has GPS to accurately track running, cycling and swimming with live pace and distances.</p>
     </div>
   </li>
       <li class="media list-group-item player-list-item">
     <div class="media-left media-middle">
       <a href="#">
-        <img style="width:80px;heigth:auto" class="media-object" src="data:image/png;base64,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" alt="Samsung">
+        <img  class="media-object" src="data:image/png;base64,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" alt="Samsung">
       </a>
     </div>
     <div class="media-body">
       <h4 class="media-heading">Samsung</h4>
-      <p>sdfsdfsdfdsf</p>
+      <p>Samsung Electronics Ltd. is a South Korean multinational electronics company headquartered in Suwon, South Korea. Like Apple they manufacture smartwatches that are easy to use with their smartphones. This company has a lot of potential in the wearables industry.</p>
     </div>
   </li>
-      <li class="media list-group-item player-list-item">
-    <div class="media-left media-middle">
-      <a href="#">
-        <img style="width:80px;heigth:auto" class="media-object" src="https://lh3.googleusercontent.com/EPmj0JfKR2e7RnOi9XPJkbmS1jwS6WAq_p2GXhWK-V_cLok_9bLQ6mzBlT9hRIaCWLOr=s91" alt="...">
-      </a>
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading">Google</h4>
-      <p>sdfsdfsdfdsf</p>
-    </div>
-  </li>
-</ul>
 
+</ul>
+<div my-request>
 </div>
