@@ -1,7 +1,18 @@
 <div>
 	<h4>Your requests</h4>
-	<div ng-repeat="request in requests">
-		Code: {{request.industryCode}}, message: {{request.message}}
-	</div>
-	<small>To be finished</small>
 </div>
+<ul class="media-list list-group">
+	<li ng-repeat="request in requests" li class="media list-group-item player-list-item">
+		<div class="media-left media-middle expert-icon">
+			<a ui-sref="industries.sub.summary({industryCode: request.industryCode})"><span class="glyphicon glyphicon-envelope"></span></a>
+		</div>
+		<div class="media-body">
+			<h4 class="media-heading"></h4>
+			<p>Message: {{request.message}} <br>Created: {{request.timestamp.slice(0, 10)}}
+			</p>
+		</div>
+		<div class="media-right media-middle">
+			<button href="#">Pending</button>
+		</div>
+	</li>
+</ul>
