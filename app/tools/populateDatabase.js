@@ -51,5 +51,3 @@ function checkSubIndustries(industry) {
 
 console.log("Database populated.");
 
-mongoose.disconnect();
-

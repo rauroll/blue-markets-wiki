@@ -1,7 +1,7 @@
 
 angular.module('bmwApp').controller('MainController', ['$scope',  'DataService', function($scope, DataService) {
 	
-		$scope.industryUrls = [
+	$scope.industryUrls = [
 	'http://www.fieldsync.net/files/2113/6460/9808/banner_agriculture.png',
 	'https://upload.wikimedia.org/wikipedia/commons/b/b3/Strip_coal_mining.jpg',
 	'http://www.inthinc.com/uploads/img/power-lines-1382388868.jpg',
@@ -16,13 +16,16 @@ angular.module('bmwApp').controller('MainController', ['$scope',  'DataService',
 	'http://www.francenter.com/wp-content/uploads/2013/02/120813_08r_crop.jpg',
 	'http://www.v-dcpa.com/wp-content/uploads/2014/01/healthcare.jpg',
 	'https://prescottollinewsletter.files.wordpress.com/2010/04/orchestra11.jpg',
-    'http://in-cyprus.com/wp-content/uploads/2014/07/accommodation.jpg',
+	'http://in-cyprus.com/wp-content/uploads/2014/07/accommodation.jpg',
 	'http://americanfacilityservice.com/files/bigstock/2014/09/Handyman-with-a-tool-belt-Hou-53746066.jpg?w=1060&h=795&a=t',
 	'http://images.wisegeek.com/us-capitol-building.jpg'
 	];
 	$scope.getTopLevelIndustries = function() {
 		DataService.getTopLevelIndustries().then(function(data) {
-			$scope.industries = data;
+			var sortedData = data.sort(function(a, b) {
+				return parseFloat(a.code) - parseFloat(b.code);
+			});
+			$scope.industries = sortedData;
 		});
 	}
 	
