@@ -4,12 +4,16 @@ var mongoose = require('mongoose');
 
 var db = require('../../config/db');
 
+
+
 mongoose.connect(db.url);
 
 console.log("Writing industries to the database...");
 
+mongoose.connection.collections['industries'].drop( function(err) {
+    console.log('collection dropped');
+});
 
-Industry.remove({});
 
 
 var ind = industryJson.industries;
@@ -50,4 +54,8 @@ function checkSubIndustries(industry) {
 }
 
 console.log("Database populated.");
+mongoose.disconnect();
+// });
+
+
 
