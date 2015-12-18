@@ -3,7 +3,7 @@
 angular.module('appRoutes', ['ui.router']).config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
 
 
-	$urlRouterProvider.otherwise('industries');
+	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
 

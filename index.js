@@ -50,8 +50,10 @@ var dataRoutes = require('./app/routes/dataApi');
 app.use('/user/', authRoutes);
 app.use('/data/', dataRoutes);
 
-app.get('/*', function(req, res) {
-	console.log("Get request to /");
+app.get('*', function(req, res) {
+
+	console.log("Get request to: ");
+  console.log(req.url);
 	res.render('index');
 });
 

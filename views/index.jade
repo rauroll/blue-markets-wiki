@@ -1,16 +1,18 @@
 doctype html
 html(ng-app='bmwApp')
 	head
-		script(src='libs/jquery/dist/jquery.js')
+
+		base(href='/')
+
+		script(src='./libs/jquery/dist/jquery.js')
 		link(rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css")
 		script(src='libs/bootstrap/dist/js/bootstrap.min.js')
-		link(rel='stylesheet/less' href='less/config.less' type="text/css")
-		link(rel='stylesheet/less' href='less/styles.less' type="text/css")
-		link(rel='stylesheet/less' href='less/animations.less' type="text/css")
+		link(rel='stylesheet' href='./less/styles.css' type="text/css")
+		link(rel='stylesheet' href='./less/animations.css' type="text/css")
 
 		link(href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css')
 
-		script(src='/libs/less/dist/less.js' type='text/javascript')
+		script(src='./libs/less/dist/less.js' type='text/javascript')
 		
 
 		script(src='libs/angular/angular.js')
@@ -50,7 +52,7 @@ html(ng-app='bmwApp')
 
 
 
-		base(href='/')
+		
 
 		meta(name='viewport' content='width=device-width, initial-scale=1.0' charset='utf-8')
 		title Bluemarkets
